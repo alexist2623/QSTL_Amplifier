@@ -1,0 +1,47 @@
+{
+  "geometry_drc": {
+    "errors": 0,
+    "warnings": {
+      "track_dangling": 1,
+      "lib_footprint_issues": 32
+    },
+    "unconnected": 0
+  },
+  "native_audit_drc": {
+    "errors": 0,
+    "warnings": {
+      "track_dangling": 1,
+      "padstack": 11,
+      "lib_footprint_issues": 35
+    },
+    "unconnected": 0
+  },
+  "native_import": {
+    "copper_layers": 4,
+    "parts": 35,
+    "native_pad_count": 84,
+    "component_via_in_pad_count": 19,
+    "EP_via_count": 5,
+    "native_arc_count": 3,
+    "native_via_count": 643,
+    "TEMP_header_pitch_mm": 2.5400000000000205,
+    "errors": [],
+    "power_track_count": 0,
+    "altium_application_DRC": false
+  },
+  "schematic_pin_connectivity": {
+    "pin_count": 80,
+    "errors": []
+  },
+  "Altium_application_ERC_DRC": false,
+  "SI_field_simulation": false,
+  "PI_impedance_simulation": false,
+  "EMC_test": false,
+  "thermal_validation": false,
+  "release_status": "REVIEW ONLY",
+  "sha256": {
+    "QSTL_THS3491_RGT_G20_RevC.PcbDoc": "66d36fcc058b13f3b5c7ae2ec91160b6e9c2534b31c842d56609a49084172e0a",
+    "QSTL_THS3491_RGT_G20_RevC.PrjPcb": "e5e72ae39fd42224f40e9676c162f1cace7e1630d601158407c185e71f9be317",
+    "QSTL_THS3491_RGT_G20_RevC.SchDoc": "e4d51af9d043647f51a6d0f54914be72bc23961d8d47e35136ff29d32c4b5de9"
+  }
+}

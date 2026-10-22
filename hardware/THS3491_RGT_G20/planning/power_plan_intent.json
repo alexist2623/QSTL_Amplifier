@@ -1,0 +1,53 @@
+{
+  "status": "PLAN ONLY; no Altium execution or CAD writes",
+  "source": "C:\\GIT_Workspace\\QSTL_Amplifier\\hardware\\THS3491_RGT_G20\\altium_revC\\review\\native_geometry.json",
+  "C5_TI_original": [
+    19.29601,
+    24.19683,
+    90
+  ],
+  "C6_TI_original": [
+    19.3908,
+    31.68317,
+    -90
+  ],
+  "C3_filter_side": [
+    26.79701,
+    11.53539,
+    -90
+  ],
+  "C4_filter_side": [
+    10.79501,
+    44.34461,
+    90
+  ],
+  "PD16": {
+    "net": "VCC",
+    "L1_trace": [
+      [
+        18.04601,
+        26.54
+      ],
+      [
+        18.04601,
+        25.7
+      ],
+      [
+        17.75,
+        25.4
+      ]
+    ],
+    "via_to": "L3 VCC",
+    "via": [
+      17.75,
+      25.4
+    ]
+  },
+  "NC15": "Directly joined to surrounding L1 GND; no enclosing supply island",
+  "VSplus13_14": "C5 local island has the same dimensions as C6 island; PD16 excluded",
+  "notes": [
+    "C5/C6 exact TI positions take priority over 180-degree symmetry at U1.",
+    "Input power blocks and C3/C4 remain 180-degree symmetric.",
+    "Copper outlines and via positions are illustrative, not DRC-validated."
+  ]
+}

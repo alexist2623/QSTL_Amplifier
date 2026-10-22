@@ -1,0 +1,21 @@
+{
+  "source": "https://jlcpcb.com/pcb-impedance-calculator",
+  "date": "2026-10-22",
+  "stack": "JLC04161H-7628",
+  "board_mm": 1.6,
+  "outer_oz": 1,
+  "inner_oz": 0.5,
+  "signal_layer": 1,
+  "reference_layer": 2,
+  "type": "Coplanar Single Ended with soldermask",
+  "impedance_ohm": 50,
+  "gap_mm": 0.2,
+  "calculated_gap_mm": 0.1999,
+  "width_mm": 0.3058,
+  "dielectric_h_mm": 0.2104,
+  "outer_copper_mm": 0.035,
+  "dielectric_er": 4.4,
+  "core_mm": 1.065,
+  "core_er": 4.6,
+  "inner_copper_mm": 0.0152
+}

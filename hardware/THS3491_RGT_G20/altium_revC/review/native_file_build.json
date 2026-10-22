@@ -1,0 +1,123 @@
+{
+  "counts": {
+    "Board6": 1,
+    "BoardRegions": 1,
+    "Classes6": 0,
+    "SignalClasses": 0,
+    "TClearanceViolation": 0,
+    "Texts": 0,
+    "WideStrings6": 0,
+    "PadViaCacheLibraryLinksSection": 0,
+    "PadViaLibraryLinks": 0,
+    "PrimitiveGuids": 902,
+    "UniqueIDPrimitiveInformation": 0,
+    "FileVersionInfo": 0,
+    "Nets6": 15,
+    "Components6": 35,
+    "Pads6": 84,
+    "Tracks6": 42,
+    "Arcs6": 3,
+    "Texts6": 40,
+    "Vias6": 643,
+    "Polygons6": 13,
+    "Regions6": 13,
+    "ShapeBasedRegions6": 12,
+    "Rules6": 11
+  },
+  "stack": [
+    [
+      "Top Paste",
+      16973832,
+      0,
+      0,
+      0
+    ],
+    [
+      "Top Overlay",
+      16973830,
+      0,
+      0,
+      0
+    ],
+    [
+      "Top Solder",
+      16973834,
+      0.0152,
+      3.8,
+      3
+    ],
+    [
+      "L1 Signal GND",
+      16777217,
+      0.035,
+      0,
+      0
+    ],
+    [
+      "7628 Prepreg",
+      17039361,
+      0.2104,
+      4.4,
+      0
+    ],
+    [
+      "L2 GND",
+      16777218,
+      0.0152,
+      0,
+      0
+    ],
+    [
+      "FR4 Core",
+      17039362,
+      1.065,
+      4.6,
+      1
+    ],
+    [
+      "L3 Split Power",
+      16777219,
+      0.0152,
+      0,
+      0
+    ],
+    [
+      "7628 Prepreg",
+      17039363,
+      0.2104,
+      4.4,
+      0
+    ],
+    [
+      "L4 GND Thermal",
+      16842751,
+      0.035,
+      0,
+      0
+    ],
+    [
+      "Bottom Solder",
+      16973835,
+      0.0152,
+      3.8,
+      3
+    ],
+    [
+      "Bottom Overlay",
+      16973831,
+      0,
+      0,
+      0
+    ],
+    [
+      "Bottom Paste",
+      16973833,
+      0,
+      0,
+      0
+    ]
+  ],
+  "source_carrier_unchanged": true,
+  "altium_roundtrip_verified": false,
+  "sha256": "66d36fcc058b13f3b5c7ae2ec91160b6e9c2534b31c842d56609a49084172e0a"
+}

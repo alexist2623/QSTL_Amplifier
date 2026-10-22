@@ -1,0 +1,417 @@
+{
+  "checked_local_date": "2026-10-22",
+  "timezone": "America/Vancouver",
+  "scope": "THS3491RGT EVM SLOU483 Fig.3, attenuator removed, external -IN grounded. Stocked gain-20 hardware uses RF=390 ohm and RG=20.5 ohm, nominal gain 20.0243902439.",
+  "sources": {
+    "evm": "https://www.ti.com/lit/pdf/SLOU483",
+    "model": "https://www.ti.com/lit/zip/SBOMAN4",
+    "datasheet": "https://www.ti.com/lit/gpn/ths3491",
+    "tdk_mapping": "https://media.digikey.com/pdf/PCNs/TDK/PCN_01102020.pdf"
+  },
+  "stock_basis": "Live rendered JLCPCB part-detail pages; available_order_qty is the unreserved orderable quantity shown. Preorder availability and minimum order do not establish a delivery date.",
+  "parts": [
+    {
+      "refs": [
+        "U1"
+      ],
+      "qty": 1,
+      "mpn": "THS3491IRGTR",
+      "code": "C2058688",
+      "package": "VQFN-16-EP 3x3 mm",
+      "value": "THS3491 RGT",
+      "available_order_qty": 234,
+      "status": "in_stock",
+      "note": "RGT package, Economic/Standard SMT. DDA footprint is incompatible.",
+      "url": "https://jlcpcb.com/partdetail/C2058688"
+    },
+    {
+      "refs": [
+        "R3"
+      ],
+      "qty": 1,
+      "mpn": "RC0603FR-0720R5L",
+      "code": "C245934",
+      "package": "0603",
+      "value": "20.5 ohm, 1%, 100 mW",
+      "available_order_qty": 1395,
+      "status": "in_stock",
+      "note": "Same YAGEO RC family as EVM RG; changed from 124 ohm. About 7.8 mW during largest pulse plateau.",
+      "url": "https://jlcpcb.com/partdetail/C245934"
+    },
+    {
+      "refs": [
+        "R4"
+      ],
+      "qty": 1,
+      "mpn": "CRCW0603390RFKEAHP",
+      "code": "C313742",
+      "package": "0603",
+      "value": "390 ohm, 1%, 333 mW (JLC listed rating)",
+      "available_order_qty": 4397,
+      "status": "in_stock",
+      "note": "User permits nearby resistance. HP substitute retains 0603 size, with listed rating above EVM 250 mW. About 0.148 W during largest pulse plateau. Nominal G=20.02439 with RG=20.5 ohm.",
+      "url": "https://jlcpcb.com/partdetail/C313742"
+    },
+    {
+      "refs": [
+        "R7",
+        "ROUT"
+      ],
+      "qty": 2,
+      "mpn": "CRCW060349R9FKEA",
+      "code": "C844930",
+      "package": "0603",
+      "value": "49.9 ohm, 1%, 100 mW",
+      "available_order_qty": 80284,
+      "status": "in_stock",
+      "note": "R7 is original EVM input termination. ROUT is the new series output resistor replacing the attenuator; specified for the modeled 1 Mohm load.",
+      "url": "https://jlcpcb.com/partdetail/C844930"
+    },
+    {
+      "refs": [
+        "R2",
+        "R6",
+        "R8"
+      ],
+      "qty": 3,
+      "mpn": "CRCW06030000Z0EA",
+      "code": "C844915",
+      "package": "0603",
+      "value": "0 ohm",
+      "available_order_qty": 49230,
+      "status": "in_stock",
+      "note": "Original EVM jumpers. R2/R6 are ideal wire links in SPICE; R8 belongs to the temperature-sense branch.",
+      "url": "https://jlcpcb.com/partdetail/C844915"
+    },
+    {
+      "refs": [
+        "C1",
+        "C2"
+      ],
+      "qty": 2,
+      "mpn": "GRM319R61H475KA12D",
+      "code": "C415529",
+      "package": "1206",
+      "value": "4.7 uF, 50 V, X5R, 10%",
+      "available_order_qty": 9519,
+      "status": "in_stock",
+      "note": "EVM BOM prints GRM319R61H475KA12D00; JLC ordering part lacks final 00. Same base part and listed electrical/package specifications.",
+      "url": "https://jlcpcb.com/partdetail/C415529"
+    },
+    {
+      "refs": [
+        "C3",
+        "C4"
+      ],
+      "qty": 2,
+      "mpn": "C2012X5R1H105KT000N",
+      "code": "C49296934",
+      "package": "0805",
+      "value": "1 uF, 50 V, X5R, 10%",
+      "available_order_qty": 107,
+      "status": "in_stock",
+      "note": "TDK item code mapped to EVM catalog number C2012X5R1H105K125AB by TDK PCN table 3 row 308. Original JLC code C3868498 is preorder.",
+      "url": "https://jlcpcb.com/partdetail/C49296934"
+    },
+    {
+      "refs": [
+        "C5",
+        "C6"
+      ],
+      "qty": 2,
+      "mpn": "C0603C104Z3VACTU",
+      "code": "C2168364",
+      "package": "0603",
+      "value": "100 nF, 25 V, Y5V, +80/-20%",
+      "available_order_qty": 13822,
+      "status": "in_stock",
+      "note": "EVM original.",
+      "url": "https://jlcpcb.com/partdetail/C2168364"
+    },
+    {
+      "refs": [
+        "C7"
+      ],
+      "qty": 1,
+      "mpn": "06031C103KAT2A",
+      "code": "C2167322",
+      "package": "0603",
+      "value": "10 nF, 100 V, X7R, 10%",
+      "available_order_qty": 21529,
+      "status": "in_stock",
+      "note": "EVM original; capacitor spans the positive and negative rails.",
+      "url": "https://jlcpcb.com/partdetail/C2167322"
+    },
+    {
+      "refs": [
+        "C8"
+      ],
+      "qty": 1,
+      "mpn": "GRM155R61E104KA87D",
+      "code": "C77008",
+      "package": "0402",
+      "value": "100 nF, 25 V, X5R, 10%",
+      "available_order_qty": 75724,
+      "status": "in_stock",
+      "note": "EVM original temperature-output filtering; not represented in TI macro model.",
+      "url": "https://jlcpcb.com/partdetail/C77008"
+    },
+    {
+      "refs": [
+        "L1",
+        "L2"
+      ],
+      "qty": 2,
+      "mpn": "BLM21PG221SN1D",
+      "code": "C85840",
+      "package": "0805",
+      "value": "220 ohm at 100 MHz, 2 A, max DCR 45 mohm",
+      "available_order_qty": 599628,
+      "status": "in_stock",
+      "note": "RGT EVM original. This differs from the DDA EVM 1206 bead. Ideal link approximation in SPICE.",
+      "url": "https://jlcpcb.com/partdetail/C85840"
+    },
+    {
+      "refs": [
+        "J2",
+        "J3"
+      ],
+      "qty": 2,
+      "mpn": "901-144-8RFX",
+      "code": "C376663",
+      "package": "Through-hole SMA",
+      "value": "50 ohm SMA jack",
+      "available_order_qty": 539,
+      "status": "in_stock",
+      "note": "User-authorized SMA substitute. Not a drop-in replacement for RGT EVM end-launch 142-0701-851; PCB footprint and launch geometry must change.",
+      "url": "https://jlcpcb.com/partdetail/C376663"
+    },
+    {
+      "refs": [
+        "RLOAD"
+      ],
+      "qty": 1,
+      "mpn": "CRCW08051M00FKEA",
+      "code": "C844825",
+      "package": "0805",
+      "value": "1 Mohm, 1%, 125 mW",
+      "available_order_qty": 25523,
+      "status": "in_stock",
+      "note": "Additional on-board output load if desired; not in original EVM. If the instrument supplies the sole 1 Mohm load, omit this on-board resistor.",
+      "url": "https://jlcpcb.com/partdetail/C844825"
+    },
+    {
+      "refs": [
+        "TP3"
+      ],
+      "qty": 1,
+      "mpn": "5000",
+      "manufacturer": "Keystone",
+      "code": "C5199900",
+      "package": "Through-hole test point",
+      "value": "Red, 2.5 mm",
+      "available_order_qty": 26813,
+      "status": "in_stock",
+      "note": "RGT EVM original temperature output test point; wave-solder assembly listed.",
+      "url": "https://jlcpcb.com/partdetail/C5199900"
+    },
+    {
+      "refs": [
+        "H9"
+      ],
+      "qty": 1,
+      "mpn": "7109DG",
+      "code": "C2844701",
+      "package": "SMD heatsink",
+      "value": "EVM underside heatsink",
+      "available_order_qty": 0,
+      "status": "preorder",
+      "minimum_order": 8,
+      "note": "Original EVM heatsink; cooling performance was not simulated.",
+      "url": "https://jlcpcb.com/partdetail/C2844701"
+    }
+  ],
+  "other_checked": [
+    {
+      "mpn": "142-0701-851",
+      "code": "C6364219",
+      "available_order_qty": 0,
+      "status": "preorder",
+      "minimum_order": 2,
+      "note": "Original RGT EVM SMA, Standard Only SMT",
+      "url": "https://jlcpcb.com/partdetail/C6364219"
+    },
+    {
+      "mpn": "CRCW0603383RFKEAHP",
+      "code": "C2086207",
+      "available_order_qty": 0,
+      "status": "preorder",
+      "minimum_order": 1671,
+      "note": "383 ohm, 333 mW, 0603 alternative, also not stocked",
+      "url": "https://jlcpcb.com/partdetail/C2086207"
+    },
+    {
+      "mpn": "RS73F1JRTTD3830F",
+      "code": "C7350089",
+      "available_order_qty": 0,
+      "status": "preorder",
+      "minimum_order": 38,
+      "note": "383 ohm, 200 mW, 0603 alternative. Lower rating than the EVM 250 mW family; not selected.",
+      "url": "https://jlcpcb.com/partdetail/C7350089"
+    },
+    {
+      "mpn": "CRCW060320R0FKEA",
+      "code": "C844755",
+      "status": "search_stock_one_preorder",
+      "note": "Standard 20-ohm version search showed stock 1 with preorder control; selected plentiful HP variant instead.",
+      "url": "https://jlcpcb.com/partdetail/C844755"
+    },
+    {
+      "refs": [
+        "R3"
+      ],
+      "qty": 1,
+      "mpn": "CRCW060320R0FKEAHP",
+      "code": "C313703",
+      "package": "0603",
+      "value": "20 ohm, 1%, 333 mW",
+      "available_order_qty": 9006,
+      "status": "in_stock",
+      "note": "Previously selected 20-ohm part; replaced by 20.5 ohm to keep nominal gain close to 20.",
+      "url": "https://jlcpcb.com/partdetail/C313703"
+    },
+    {
+      "refs": [
+        "R4"
+      ],
+      "qty": 1,
+      "mpn": "RCS0603383RFKEA",
+      "code": "C4263662",
+      "package": "0603",
+      "value": "383 ohm, 1%, 250 mW",
+      "available_order_qty": 0,
+      "status": "preorder",
+      "minimum_order": 1327,
+      "note": "383-ohm reference candidate; replaced by a stocked 390-ohm HP part.",
+      "url": "https://jlcpcb.com/partdetail/C4263662"
+    },
+    {
+      "mpn": "RCS0603390RFKEA",
+      "code": "C2105666",
+      "status": "preorder",
+      "available_order_qty": 0,
+      "minimum_order": 1962,
+      "note": "390 ohm, 250 mW, 0603; live search showed no stock.",
+      "url": "https://jlcpcb.com/partdetail/C2105666"
+    }
+  ],
+  "not_confirmed": [
+    {
+      "refs": [
+        "TP1"
+      ],
+      "mpn": "TP105-01-09",
+      "qty": 1,
+      "note": "Exact JLC listing not found; a ground test pad is a layout option."
+    },
+    {
+      "refs": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "mpn": "PMSSS 440 0025 PH",
+      "qty": 4,
+      "note": "Mounting screws; no JLC listing confirmed."
+    },
+    {
+      "refs": [
+        "H5",
+        "H6",
+        "H7",
+        "H8"
+      ],
+      "mpn": "2204",
+      "manufacturer": "Keystone",
+      "qty": 4,
+      "note": "RGT EVM 3/4-inch standoff, different from DDA EVM 1808; no JLC listing confirmed."
+    }
+  ],
+  "excluded": [
+    {
+      "refs": [
+        "J4",
+        "J5",
+        "J6"
+      ],
+      "reason": "Power binding posts excluded by user"
+    },
+    {
+      "refs": [
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ],
+      "reason": "Output attenuator removed by user"
+    },
+    {
+      "refs": [
+        "R5",
+        "C9"
+      ],
+      "reason": "DNP in RGT EVM"
+    },
+    {
+      "refs": [
+        "J1",
+        "R1"
+      ],
+      "reason": "External -IN grounded; optional connector and inactive termination omitted"
+    },
+    {
+      "refs": [
+        "FID1",
+        "FID2",
+        "FID3",
+        "FID4",
+        "FID5",
+        "FID6",
+        "LBL1"
+      ],
+      "reason": "Fiducials/board label are not electronic assembly components"
+    }
+  ],
+  "gain": {
+    "RF_ohm": 390,
+    "RG_hardware_ohm": 20.5,
+    "nominal_hardware_gain": 20.024390243902438,
+    "relative_error_from_gain20_percent": 0.12195121951219523,
+    "simulation_config": "G20_stock",
+    "exact_gain20_reference": {
+      "RF_ohm": 383,
+      "RG_ohm": 20.157894736842106,
+      "config": "G20_exact"
+    },
+    "ti_e96_reference": {
+      "RF_ohm": 383,
+      "RG_ohm": 20,
+      "config": "G20_BOM"
+    }
+  },
+  "physical_model_mapping": {
+    "INP": "pin 4",
+    "INN": "pin 3",
+    "FB": "pin 1",
+    "OUT": "pins 10,11",
+    "PD_not": "pin 16 tied to positive rail",
+    "VCC": "pins 13,14",
+    "VEE": "pins 7,8",
+    "GND": "pin 5",
+    "TJ_SENSE": "pin 6; not exposed in TI macro model",
+    "exposed_pad": "pin 17, ground per EVM",
+    "NC": "pins 2,9,12,15 connected to ground per EVM"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "TI_RF_placement": {
+    "U1": {
+      "position_delta_mm": 1.1234667099445444e-14,
+      "rotation_delta_deg": 0.0
+    },
+    "J1": {
+      "position_delta_mm": 7.112579492364806e-15,
+      "rotation_delta_deg": 0.0
+    },
+    "J2": {
+      "position_delta_mm": 6.161737786669619e-15,
+      "rotation_delta_deg": 0.0
+    },
+    "J3": {
+      "position_delta_mm": 7.944109290391274e-15,
+      "rotation_delta_deg": 0.0
+    },
+    "R1": {
+      "position_delta_mm": 4.440892098500626e-15,
+      "rotation_delta_deg": 0.0
+    },
+    "R2": {
+      "position_delta_mm": 7.944109290391274e-15,
+      "rotation_delta_deg": 0.0
+    },
+    "R3": {
+      "position_delta_mm": 1.5888218580782548e-14,
+      "rotation_delta_deg": 0.0
+    },
+    "R4": {
+      "position_delta_mm": 1.5888218580782548e-14,
+      "rotation_delta_deg": 0.0
+    },
+    "R5": {
+      "position_delta_mm": 7.588599744428075e-15,
+      "rotation_delta_deg": 0.0
+    },
+    "R6": {
+      "position_delta_mm": 1.5888218580782548e-14,
+      "rotation_delta_deg": 0.0
+    },
+    "R7": {
+      "position_delta_mm": 1.5888218580782548e-14,
+      "rotation_delta_deg": 0.0
+    }
+  },
+  "180_degree_supply_symmetry_error_mm": {
+    "J4/J6": 9.999999974752427e-07,
+    "J5/J8": 9.999999974752427e-07,
+    "C1/C2": 9.999999992515995e-07,
+    "L1/L2": 9.999999992515995e-07,
+    "C3/C4": 9.999999974752427e-07,
+    "C5/C6": 5.0242958677880805e-15
+  },
+  "all_RF_positions_within_1um": true,
+  "all_supply_pairs_within_1um": true
+}

@@ -1,0 +1,9 @@
+/tmp/
+/hardware/THS3491_RGT_G20/altium/staging/
+/hardware/THS3491_RGT_G20/altium/tools/vendor/
+/hardware/THS3491_RGT_G20/altium/tools/__pycache__/
+/hardware/THS3491_RGT_G20/altium/tools/altium_parser_pcb.cpp
+/hardware/THS3491_RGT_G20/altium/tools/altium_parser_pcb.h
+/hardware/THS3491_RGT_G20/altium/tools/altium_pcb.cpp
+/hardware/THS3491_RGT_G20/altium_revC/staging/
+/hardware/THS3491_RGT_G20/altium_revC/tools/__pycache__/

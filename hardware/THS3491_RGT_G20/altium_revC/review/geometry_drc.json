@@ -1,0 +1,532 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-22T09:15:39",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "QSTL_THS3491_RGT_G20.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track (arc) [RG_DRIVE] on F.Cu, length 0.0089 mm",
+                    "pos": {
+                        "x": 10.8526,
+                        "y": 25.8277
+                    },
+                    "uuid": "8531918b-615d-44d8-84e0-4081d8a4c599"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 23.1,
+                        "y": 40.0
+                    },
+                    "uuid": "003e61fe-1739-4b0b-a207-9a30fbe04781"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connectors_Other'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 0.25401,
+                        "y": 20.828
+                    },
+                    "uuid": "02dcab2b-ecd4-48f0-8372-c62ddf32ac02"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_0603'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 6.52781,
+                        "y": 35.368
+                    },
+                    "uuid": "1de5638b-e399-428f-ae83-8329adee3d2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Fuse'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 26.77161,
+                        "y": 7.874
+                    },
+                    "uuid": "1f10c04e-2051-4947-a2c9-a85914c9fc01"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_TDK'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 14.79056,
+                        "y": 27.14651
+                    },
+                    "uuid": "2b87efed-fdbf-44a9-b529-5c0a2bfd00a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 26.77161,
+                        "y": 3.02039
+                    },
+                    "uuid": "2c047cd2-bbe3-4453-8b15-d7863bf0bd8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Hardware'",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 5.08001,
+                        "y": 5.08
+                    },
+                    "uuid": "2cdbf5a1-2b87-492a-a995-ee9f91820458"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_0603'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 14.09056,
+                        "y": 25.2476
+                    },
+                    "uuid": "3b09c4e7-a71a-4129-b4c7-f55f4c40d0d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 17.042019,
+                        "y": 31.38
+                    },
+                    "uuid": "467911e6-2547-47ce-982f-f2c684ff8db6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'QSTL'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 18.66901,
+                        "y": 6.858
+                    },
+                    "uuid": "49fe0d1d-1b21-4f70-a22f-52f7f8a4a585"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Hardware'",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 36.57601,
+                        "y": 5.08
+                    },
+                    "uuid": "5ced0c3b-7e23-4fb7-a442-bac8672b03d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connectors_Other'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 0.25401,
+                        "y": 36.068
+                    },
+                    "uuid": "6967e453-b67b-4b11-9f42-97a9a569d6a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'QSTL'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 14.66901,
+                        "y": 6.858
+                    },
+                    "uuid": "77b5d6f0-3ee6-42ce-a028-63efc1d6871c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'QSTL'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 18.923009,
+                        "y": 49.022
+                    },
+                    "uuid": "782e0d34-d3a3-4d13-97ba-ee5536757e32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connectors_Other'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 41.40201,
+                        "y": 27.94
+                    },
+                    "uuid": "7bca74ce-40d3-4320-9826-2ac11832e80c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 10.820409,
+                        "y": 52.85961
+                    },
+                    "uuid": "869694e3-2d77-4d32-a4e6-e4fc6b113901"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Hardware'",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 36.57601,
+                        "y": 63.5
+                    },
+                    "uuid": "8df258a7-c1c1-4afb-a0ea-427beb440dd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_TDK'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 19.8,
+                        "y": 30.93
+                    },
+                    "uuid": "8fda3394-9deb-468a-8f92-9ccd91e9974f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_0603'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 16.16216,
+                        "y": 27.14651
+                    },
+                    "uuid": "a1632d8b-2541-42d6-8a7b-31c8e3b94840"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 16.16216,
+                        "y": 29.7335
+                    },
+                    "uuid": "aec53406-5f34-4f7b-8de8-e90eaf490595"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_TDK'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 17.79202,
+                        "y": 24.95
+                    },
+                    "uuid": "b6e328f6-5b3c-4565-a203-d3ef15ad4755"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 24.9,
+                        "y": 31.5
+                    },
+                    "uuid": "c14974e4-894c-4f20-8867-803e79dd124b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connectors'",
+            "items": [
+                {
+                    "description": "Footprint TP1",
+                    "pos": {
+                        "x": 31.49601,
+                        "y": 21.8948
+                    },
+                    "uuid": "c48ab0c5-4249-42e4-aca8-60e845c4cb11"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TI_Pre_Release'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 18.79601,
+                        "y": 27.94
+                    },
+                    "uuid": "d64e21f3-8109-4bd7-a8f1-b6cbcb304137"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Hardware'",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 5.08001,
+                        "y": 63.5
+                    },
+                    "uuid": "e1003935-f89f-45e1-9ab4-cbf52cf57e7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'QSTL'",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 22.923009,
+                        "y": 49.022
+                    },
+                    "uuid": "e623a948-2f65-4028-9eda-bc6414cff193"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 20.55,
+                        "y": 24.5
+                    },
+                    "uuid": "e62f6caa-ac20-4952-867b-e7447bae7252"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 7.21361,
+                        "y": 20.828
+                    },
+                    "uuid": "eee69538-ae51-4bc5-95d6-6212e0030eff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_TDK'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 23.1,
+                        "y": 37.5
+                    },
+                    "uuid": "ef4ae5cc-095f-4428-9262-b5d44deb79f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_Ceramic'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 14.79056,
+                        "y": 29.7335
+                    },
+                    "uuid": "f31cecea-dfca-4caf-b06e-01e830030f9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Fuse'",
+            "items": [
+                {
+                    "description": "Footprint L2",
+                    "pos": {
+                        "x": 10.820409,
+                        "y": 48.006
+                    },
+                    "uuid": "f573bf55-a218-4532-a8e3-aec60bd36328"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Hardware'",
+            "items": [
+                {
+                    "description": "Footprint H9",
+                    "pos": {
+                        "x": 18.79601,
+                        "y": 35.074
+                    },
+                    "uuid": "5bcce587-3434-4988-8de4-3cb640eb99b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

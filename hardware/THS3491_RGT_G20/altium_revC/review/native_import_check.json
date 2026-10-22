@@ -1,0 +1,13 @@
+{
+  "copper_layers": 4,
+  "parts": 35,
+  "native_pad_count": 84,
+  "component_via_in_pad_count": 19,
+  "EP_via_count": 5,
+  "native_arc_count": 3,
+  "native_via_count": 643,
+  "TEMP_header_pitch_mm": 2.5400000000000205,
+  "errors": [],
+  "power_track_count": 0,
+  "altium_application_DRC": false
+}
