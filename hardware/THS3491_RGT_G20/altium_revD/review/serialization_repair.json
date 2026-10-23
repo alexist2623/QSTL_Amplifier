@@ -1,0 +1,23 @@
+{
+  "before_sha256": "52c28bd6d675bdd1ac9863c12b2cdd19b1d9e34b4b687c279360620b8931a937",
+  "after_sha256": "5e00f21e7f5c6fff0c844085153ea0d0053cdf53b98d651006fa8c11b8be501b",
+  "regression_rejects_original_bad_fields": 119,
+  "repaired_tracks": 42,
+  "repaired_pads": 77,
+  "unchanged_bottom_pads": 7,
+  "track_layer_payload_offset": 41,
+  "pad_layer_fifth_subrecord_offset": 114,
+  "native_layer_check": {
+    "errors": [],
+    "pad_layers": {
+      "1": 66,
+      "32": 7,
+      "74": 11
+    },
+    "track_layers": {
+      "1": 38,
+      "57": 4
+    },
+    "version_info_bytes": 22398
+  }
+}

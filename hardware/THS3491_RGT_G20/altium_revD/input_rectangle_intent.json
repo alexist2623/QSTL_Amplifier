@@ -1,0 +1,296 @@
+{
+  "description": "User requested rectangular input copper with capacitor centers on boundaries, both rails 180-degree symmetric.",
+  "symmetry_center_mm": [
+    18.79601,
+    27.94
+  ],
+  "moves": {
+    "C1": [
+      26.77161,
+      4.9,
+      90
+    ],
+    "C2": [
+      10.82041,
+      50.98,
+      -90
+    ],
+    "C3": [
+      26.77161,
+      12.56139,
+      -90
+    ],
+    "C4": [
+      10.82041,
+      43.31861,
+      90
+    ],
+    "L1": [
+      26.77161,
+      8.9,
+      -90
+    ],
+    "L2": [
+      10.82041,
+      46.98,
+      90
+    ]
+  },
+  "zone_rectangles_mm": {
+    "L1_POSITIVE_INPUT": [
+      16.7,
+      4.9,
+      28.2,
+      8.9
+    ],
+    "L1_NEGATIVE_INPUT": [
+      9.39202,
+      46.98,
+      20.89202,
+      50.98
+    ],
+    "L1_VCC_ENTRY_VIA_ISLAND": [
+      22.2,
+      8.9,
+      28.2,
+      12.56139
+    ],
+    "L1_VEE_ENTRY_VIA_ISLAND": [
+      9.39202,
+      43.31861,
+      15.39202,
+      46.98
+    ]
+  },
+  "center_on_edge": {
+    "C1": [
+      "L1_POSITIVE_INPUT",
+      "top"
+    ],
+    "C2": [
+      "L1_NEGATIVE_INPUT",
+      "bottom"
+    ],
+    "C3": [
+      "L1_VCC_ENTRY_VIA_ISLAND",
+      "bottom"
+    ],
+    "C4": [
+      "L1_VEE_ENTRY_VIA_ISLAND",
+      "top"
+    ],
+    "L1": [
+      "L1_POSITIVE_INPUT",
+      "bottom"
+    ],
+    "L2": [
+      "L1_NEGATIVE_INPUT",
+      "top"
+    ]
+  },
+  "retained_prior_stitching_removals": [
+    {
+      "net": "GND",
+      "pos": [
+        20.908110000000008,
+        35.40356
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        19.68500999999999,
+        34.239180000000005
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        20.296559999999985,
+        34.82137
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        10.789309999999986,
+        43.223389999999995
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        21.62429999999999,
+        36.313590000000005
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    }
+  ],
+  "filtered_via_arrays": [
+    {
+      "net": "VEE",
+      "zone": "L1_VEE_ENTRY_VIA_ISLAND",
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2,
+      "pitch_mm": 0.8,
+      "rows": 4,
+      "columns": 4,
+      "positions_mm": [
+        [
+          12.35,
+          43.9
+        ],
+        [
+          13.15,
+          43.9
+        ],
+        [
+          13.95,
+          43.9
+        ],
+        [
+          14.75,
+          43.9
+        ],
+        [
+          12.35,
+          44.7
+        ],
+        [
+          13.15,
+          44.7
+        ],
+        [
+          13.95,
+          44.7
+        ],
+        [
+          14.75,
+          44.7
+        ],
+        [
+          12.35,
+          45.5
+        ],
+        [
+          13.15,
+          45.5
+        ],
+        [
+          13.95,
+          45.5
+        ],
+        [
+          14.75,
+          45.5
+        ],
+        [
+          12.35,
+          46.3
+        ],
+        [
+          13.15,
+          46.3
+        ],
+        [
+          13.95,
+          46.3
+        ],
+        [
+          14.75,
+          46.3
+        ]
+      ]
+    },
+    {
+      "net": "VCC",
+      "zone": "L1_VCC_ENTRY_VIA_ISLAND",
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2,
+      "pitch_mm": 0.8,
+      "rows": 4,
+      "columns": 4,
+      "positions_mm": [
+        [
+          25.24202,
+          11.98
+        ],
+        [
+          24.44202,
+          11.98
+        ],
+        [
+          23.64202,
+          11.98
+        ],
+        [
+          22.84202,
+          11.98
+        ],
+        [
+          25.24202,
+          11.18
+        ],
+        [
+          24.44202,
+          11.18
+        ],
+        [
+          23.64202,
+          11.18
+        ],
+        [
+          22.84202,
+          11.18
+        ],
+        [
+          25.24202,
+          10.38
+        ],
+        [
+          24.44202,
+          10.38
+        ],
+        [
+          23.64202,
+          10.38
+        ],
+        [
+          22.84202,
+          10.38
+        ],
+        [
+          25.24202,
+          9.58
+        ],
+        [
+          24.44202,
+          9.58
+        ],
+        [
+          23.64202,
+          9.58
+        ],
+        [
+          22.84202,
+          9.58
+        ]
+      ]
+    }
+  ],
+  "filtered_island_expansion": "VEE width 2.8 to 6.0 mm to the right; VCC mirrored 180 degrees. User VSS interpreted as opposite +15 V VCC because no VSS net exists. Component centers stay on rectangle boundaries."
+}

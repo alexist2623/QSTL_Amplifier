@@ -1,0 +1,167 @@
+{
+  "source": "C:\\Jeonghyun\\SNU_GIT\\QSTL_Amplifier\\hardware\\THS3491_RGT_G20\\altium_revC\\QSTL_THS3491_RGT_G20_RevC.PcbDoc",
+  "destination": "C:\\Jeonghyun\\SNU_GIT\\QSTL_Amplifier\\hardware\\THS3491_RGT_G20\\altium_revD\\staging\\RevD_entry_array_candidate.PcbDoc",
+  "source_sha256": "66d36fcc058b13f3b5c7ae2ec91160b6e9c2534b31c842d56609a49084172e0a",
+  "destination_sha256": "94f81729bebbea90d57efc2baa7211f141964b009b25363cd732599c7e729758",
+  "source_unchanged": true,
+  "stream_count": 102,
+  "storage_count": 50,
+  "all_untouched_stream_bytes_preserved": true,
+  "storage_hierarchy_preserved": true,
+  "root_clsid_preserved": true,
+  "updated_streams": [
+    {
+      "path": "Board6/Data",
+      "old_size": 70632,
+      "new_size": 72153,
+      "new_sha256": "42998fb704eaaa4c6a2e05b8e1d931fd9600fa0eb1776c51f511069a359c98d7"
+    },
+    {
+      "path": "Board6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+    },
+    {
+      "path": "BoardRegions/Data",
+      "old_size": 393,
+      "new_size": 393,
+      "new_sha256": "4b2bbaa15f8f977d15bce4cd3c60b679e213fe2427f1e31351f39d76cad841b6"
+    },
+    {
+      "path": "Components6/Data",
+      "old_size": 18674,
+      "new_size": 18659,
+      "new_sha256": "f63225fc97866cfb7cd9681ebdb667899243881bd90cf7ea20db76ecafa15ab6"
+    },
+    {
+      "path": "Components6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "d2d27d69fc0a2c6cc0aabec462ce665aa8a92766844f081b672588acdf8a2c71"
+    },
+    {
+      "path": "Pads6/Data",
+      "old_size": 32344,
+      "new_size": 19828,
+      "new_sha256": "26e45aaf0f12be604d0e594a87b6cac651e1dff516f59bf8aae162157eae641a"
+    },
+    {
+      "path": "Pads6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "3fbf037cb6bcb6178ea17e51a1766736cbcb464e4bc6991e76c0961d313c9446"
+    },
+    {
+      "path": "Tracks6/Data",
+      "old_size": 2268,
+      "new_size": 2268,
+      "new_sha256": "cc315e9a62f976005574f31406ee9f9cb08ddae8c9255001a4f20666f468824a"
+    },
+    {
+      "path": "Tracks6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "e8a4b2ee7ede79a3afb332b5b6cc3d952a65fd8cffb897f5d18016577c33d7cc"
+    },
+    {
+      "path": "Vias6/Data",
+      "old_size": 209618,
+      "new_size": 211900,
+      "new_sha256": "d0304192c345e9de3cddac8aa0be95ee221185e46eec741e9ca737df2fd2085c"
+    },
+    {
+      "path": "Vias6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "a2cb61afec1cdbb2c55160bae6e7c4904e04ae1b33ab8276f2e4ee20c8c9d29c"
+    },
+    {
+      "path": "Texts6/Data",
+      "old_size": 6031,
+      "new_size": 6031,
+      "new_sha256": "1be26ffe05f2101084f9a592db1e3b4923e337504ddb27ad26b13575c6dab1e3"
+    },
+    {
+      "path": "Texts6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "1a00f51f3029fa4b7e61b9bf7aa9de5a64798857872981f7e056e4f437171955"
+    },
+    {
+      "path": "Polygons6/Data",
+      "old_size": 14679,
+      "new_size": 10477,
+      "new_sha256": "9cf16c7cc0afae4afe112e2ad097fec4cadc30e6807c57298f8b5a91dbdac68b"
+    },
+    {
+      "path": "Polygons6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "cb30e91817239109ffd0a5870046e128f04619da80c7624d921162fdfe514f76"
+    },
+    {
+      "path": "Regions6/Data",
+      "old_size": 376044,
+      "new_size": 376378,
+      "new_sha256": "d8dd86bb7cc2e81863a23bd7459303f7013471298899b1b905c719c529ca538b"
+    },
+    {
+      "path": "Regions6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "cb30e91817239109ffd0a5870046e128f04619da80c7624d921162fdfe514f76"
+    },
+    {
+      "path": "ShapeBasedRegions6/Data",
+      "old_size": 4767,
+      "new_size": 11536,
+      "new_sha256": "94dbb50a0d7cdab9ddee8fe4e12f5d55e5e2f6e91374bf23ffac29fe45437ba7"
+    },
+    {
+      "path": "ShapeBasedRegions6/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "efbe2f505a2756a0891b40d01d0a7135774bbd38cdc526def968d28a7e309452"
+    },
+    {
+      "path": "PrimitiveGuids/Data",
+      "old_size": 21648,
+      "new_size": 22176,
+      "new_sha256": "09e89d61a7d9de239f6e950bf0b4b3a1b0806e93fec29f81f71aa99387c4fa4e"
+    },
+    {
+      "path": "PrimitiveGuids/Header",
+      "old_size": 4,
+      "new_size": 4,
+      "new_sha256": "fbdbc86f23302e2b168bd869887c1bf7aab9724359d723116c773462a51af2ed"
+    }
+  ],
+  "writer": "Windows ole32 StgOpenStorage/IStorage.OpenStream/IStream.SetSize+Write+Commit",
+  "validated_by": "olefile full stream hashes and hierarchy",
+  "counts": {
+    "Board6": 1,
+    "Components6": 35,
+    "Pads6": 84,
+    "Tracks6": 42,
+    "Vias6": 650,
+    "Texts6": 40,
+    "Polygons6": 11,
+    "Regions6": 11,
+    "ShapeBasedRegions6": 31,
+    "PrimitiveGuids": 924
+  },
+  "altium_application_roundtrip": false,
+  "preserved_streams_of_interest": [
+    "Nets6",
+    "Rules6",
+    "Arcs6"
+  ],
+  "preserved_original_shape_regions": 12,
+  "added_L2_RF_pad_cutouts": 19,
+  "finalization": {
+    "saved_by": "Altium Designer 25.8.1",
+    "delivered_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
+    "evidence": "altium_application_check.json"
+  }
+}

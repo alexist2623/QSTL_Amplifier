@@ -1,0 +1,629 @@
+{
+  "reader": "(6.0.10)",
+  "errors": [],
+  "copper_layers": 4,
+  "parts": 35,
+  "pads": 84,
+  "vias": 650,
+  "arcs": 3,
+  "tracks": 38,
+  "TEMP_header_pitch_mm": 2.539999999999999,
+  "copper_refilled_in_native_audit": false,
+  "text_stream_excluded_from_import": false,
+  "source_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
+  "altium_application_DRC": false,
+  "all_pad_shapes_checked": 84,
+  "persistent_polygon_cutouts": 31,
+  "rectangular_pads_verified": [
+    {
+      "ref": "R14",
+      "pad": "1",
+      "shape": "rectangle",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          20.975,
+          27.465
+        ],
+        [
+          21.775,
+          27.465
+        ],
+        [
+          21.775,
+          28.415
+        ],
+        [
+          20.975,
+          28.415
+        ]
+      ]
+    },
+    {
+      "ref": "R14",
+      "pad": "2",
+      "shape": "rectangle",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          22.625,
+          27.465
+        ],
+        [
+          23.425,
+          27.465
+        ],
+        [
+          23.425,
+          28.415
+        ],
+        [
+          22.625,
+          28.415
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "1",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          17.09601,
+          27.31
+        ],
+        [
+          17.09601,
+          27.07
+        ],
+        [
+          17.69601,
+          27.07
+        ],
+        [
+          17.69601,
+          27.31
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "2",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          17.09601,
+          27.81
+        ],
+        [
+          17.09601,
+          27.57
+        ],
+        [
+          17.69601,
+          27.57
+        ],
+        [
+          17.69601,
+          27.81
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "3",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          17.09601,
+          28.31
+        ],
+        [
+          17.09601,
+          28.07
+        ],
+        [
+          17.69601,
+          28.07
+        ],
+        [
+          17.69601,
+          28.31
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "4",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          17.09601,
+          28.81
+        ],
+        [
+          17.09601,
+          28.57
+        ],
+        [
+          17.69601,
+          28.57
+        ],
+        [
+          17.69601,
+          28.81
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "5",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          17.926009,
+          29.04
+        ],
+        [
+          18.166009,
+          29.04
+        ],
+        [
+          18.166009,
+          29.64
+        ],
+        [
+          17.926009,
+          29.64
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "6",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          18.426011,
+          29.04
+        ],
+        [
+          18.666011,
+          29.04
+        ],
+        [
+          18.666011,
+          29.64
+        ],
+        [
+          18.426011,
+          29.64
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "7",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          18.92601,
+          29.04
+        ],
+        [
+          19.16601,
+          29.04
+        ],
+        [
+          19.16601,
+          29.64
+        ],
+        [
+          18.92601,
+          29.64
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "8",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          19.426011,
+          29.04
+        ],
+        [
+          19.666011,
+          29.04
+        ],
+        [
+          19.666011,
+          29.64
+        ],
+        [
+          19.426011,
+          29.64
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "9",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          19.89601,
+          28.81
+        ],
+        [
+          19.89601,
+          28.57
+        ],
+        [
+          20.49601,
+          28.57
+        ],
+        [
+          20.49601,
+          28.81
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "10",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          19.89601,
+          28.31
+        ],
+        [
+          19.89601,
+          28.07
+        ],
+        [
+          20.49601,
+          28.07
+        ],
+        [
+          20.49601,
+          28.31
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "11",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          19.89601,
+          27.81
+        ],
+        [
+          19.89601,
+          27.57
+        ],
+        [
+          20.49601,
+          27.57
+        ],
+        [
+          20.49601,
+          27.81
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "12",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          19.89601,
+          27.31
+        ],
+        [
+          19.89601,
+          27.07
+        ],
+        [
+          20.49601,
+          27.07
+        ],
+        [
+          20.49601,
+          27.31
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "13",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          19.426011,
+          26.24
+        ],
+        [
+          19.666011,
+          26.24
+        ],
+        [
+          19.666011,
+          26.84
+        ],
+        [
+          19.426011,
+          26.84
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "14",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          18.92601,
+          26.24
+        ],
+        [
+          19.16601,
+          26.24
+        ],
+        [
+          19.16601,
+          26.84
+        ],
+        [
+          18.92601,
+          26.84
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "15",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          18.426011,
+          26.24
+        ],
+        [
+          18.666011,
+          26.24
+        ],
+        [
+          18.666011,
+          26.84
+        ],
+        [
+          18.426011,
+          26.84
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "16",
+      "shape": "rectangle",
+      "size_mm": [
+        0.24,
+        0.6
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          17.926009,
+          26.24
+        ],
+        [
+          18.166009,
+          26.24
+        ],
+        [
+          18.166009,
+          26.84
+        ],
+        [
+          17.926009,
+          26.84
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "17",
+      "shape": "rectangle",
+      "size_mm": [
+        1.45,
+        1.45
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          18.07101,
+          27.215
+        ],
+        [
+          19.52101,
+          27.215
+        ],
+        [
+          19.52101,
+          28.665
+        ],
+        [
+          18.07101,
+          28.665
+        ]
+      ]
+    },
+    {
+      "ref": "R15",
+      "pad": "1",
+      "shape": "rectangle",
+      "size_mm": [
+        1.025,
+        1.4
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          31.7,
+          27.4275
+        ],
+        [
+          31.7,
+          28.4525
+        ],
+        [
+          30.3,
+          28.4525
+        ],
+        [
+          30.3,
+          27.4275
+        ]
+      ]
+    },
+    {
+      "ref": "R15",
+      "pad": "2",
+      "shape": "rectangle",
+      "size_mm": [
+        1.025,
+        1.4
+      ],
+      "inactive_roundrect_ratio": 0.25,
+      "radius_mm": 0,
+      "copper_outline_mm": [
+        [
+          31.7,
+          29.2525
+        ],
+        [
+          31.7,
+          30.2775
+        ],
+        [
+          30.3,
+          30.2775
+        ],
+        [
+          30.3,
+          29.2525
+        ]
+      ]
+    }
+  ],
+  "rounded_rectangle_pads": []
+}

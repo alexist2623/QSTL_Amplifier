@@ -7,7 +7,7 @@ This document records the user's instructions for the THS3491 RGT amplifier proj
 ## 1. Deliverable and current workflow
 
 - The schematic and PCB layout deliverables must be native Altium files. A KiCad project is not the requested final deliverable.
-- For the current layout discussion, the user explicitly requested planning drawings without actually launching Altium. Continue this planning-only workflow until the user asks to apply the changes to CAD.
+- The earlier layout discussion requested planning drawings without launching Altium. On 2026-10-22 the user subsequently requested follow-up work, authorizing implementation in a new Rev D, and also requested investigation of the Altium project-opening / Internal Plane warning. The Rev C originals remain unchanged.
 - Show the intended arrangement clearly before implementing it: include an L1 overview, an enlarged U1 area, and an internal power-plane drawing. Distinguish planning illustrations from actual CAD screenshots or exports.
 - Treat the user's annotated EVM images as placement and power-routing references, together with their accompanying text. Do not substitute a generic layout for those references.
 - No fixed board outline or mounting-hole positions have been imposed. The earlier approximately 50 x 50 mm proposal was not a mandatory dimension.
@@ -29,6 +29,7 @@ This document records the user's instructions for the THS3491 RGT amplifier proj
 - Follow the actual TI RGT EVM drawing/source for RF component placement, orientation, and routing, especially at the input connectors and near U1.
 - Preserve the EVM's curved RF routing where applicable. Do not replace it with unrelated angular routes or change component placement merely to simplify drawing generation.
 - RF traces must flow through the appropriate SMD signal pads in the main signal path. Avoid a main RF line with a side branch or stub leading to a component that should sit directly in that path.
+- Latest L2 requirement: clear ground copper directly beneath RF signal-component pads. Apply localized pad windows to the 19 signal pads on R1-R7, R14/R15 and U1 I/O; retain grounded pads, the U1 exposed thermal pad, and continuity of the surrounding reference plane. The present 0.10-mm pad-window margin is a layout choice, not a validated impedance optimum.
 - Give particular attention to the input termination/configuration components, feedback network, amplifier pins, and output launch.
 - Design for signal integrity, power integrity, and EMC. Visual similarity to an EVM alone does not establish these properties.
 - Use an actual JLCPCB four-layer stackup as the impedance-design basis. Determine the coplanar-waveguide signal width and signal-to-ground gap from the selected stackup, copper, dielectric, and manufacturing assumptions; do not use arbitrary gaps or numbers from a different stack.
@@ -46,6 +47,8 @@ This document records the user's instructions for the THS3491 RGT amplifier proj
 - Place the negative supply input block on the opposite side, symmetrically relative to the positive supply input block.
 - In the top view, place the negative-supply input capacitor arrangement to the **left** as indicated in the user's reference image.
 - Preserve the raw-input and filtered-output sides of the supply bead as distinct nets/copper areas.
+- Latest input-block correction: make the raw-input and filtered-supply L1 polygons rectangular. Put C1/C2 and C3/C4 component centers on the corresponding rectangle boundaries, with GND pads outside their supply polygons. Move negative-side C2/C4 upward and adjust L2 bead to maintain straight boundaries; apply 180-degree-symmetric changes to C1/C3/L1. Remove overlapping auxiliary vias while keeping deliberate via-in-pad connections.
+- Latest entry-plane/via correction: widen the filtered VEE and opposite VCC entry islands from 2.8 mm to 6.0 mm, keeping their capacitor-center boundaries and 180-degree symmetry. Add a 4-by-4 array per rail, using 0.40-mm pads, 0.20-mm drills and 0.80-mm pitch, connected to the same rail on L3. Remove the three GND stitching vias conflicting with the enlarged VEE boundary. The user wrote VSS; this is interpreted as the opposite VCC (+15 V) rail because no VSS net exists.
 - Near U1, retain local supply islands rather than extending the inlet power area across the RF region.
 - PD is the explicit exception to the main-supply plane-routing rule: a thin trace and a separate via are sufficient for that control pin, as detailed below.
 
@@ -109,6 +112,16 @@ The following later instructions override earlier suggestions or revisions:
 | Plane-only treatment assumed for every VCC connection | PD16 has an explicit thin-trace/separate-via exception. |
 | Continue editing or launching Altium during the latest discussion | Produce planning drawings only until the user asks to apply them. |
 
-The latest capacitor and PD/NC corrections have been represented in planning drawings. They have **not** been applied to the existing native Altium Rev C documents. Older README descriptions and CAD images may therefore describe superseded geometry. Reconcile the CAD against this document before claiming these requirements have been implemented.
+The latest capacitor and PD/NC corrections were first represented in planning drawings. They have now been applied to the native **Altium Rev D** PCB. They have **not** been applied to the historical Rev C documents. Older Rev C descriptions and images therefore describe superseded geometry.
+
+## 11. Follow-up implementation: Rev D (2026-10-22)
+
+- C5/C6 retain their recorded TI EVM coordinates and orientations; C3/C4 move to the input filters.
+- C5 and C6 use compact local supply islands. PD16 uses a 0.15-mm L1 route and a separate via. NC15 has continuous surrounding L1 GND copper, checked on the filled geometry.
+- TEMP escape routing is adjusted to clear C6. The input rectangle correction removes overlapping entry-via rows and stitching vias; deliberate capacitor/bead via-in-pad connections remain.
+- Rev D reconciles contradictory inherited V8 two-layer-flex metadata with the actual V9 four-layer rigid stack. The actual `Tracks6 / Creating InternalPlaneLayer(0)` exception was caused by writing extended layer IDs at byte 40 instead of 41. All track IDs are repaired, and pad extended IDs now agree with their legacy layers (66 top, 7 bottom, 11 multilayer). Legacy inactive Internal Plane slots remain outside the active copper stack.
+- Native-file re-import checks 4 copper layers, 35 components, 84 pads, 650 vias and 3 preserved RF arcs. Independent DRC reports zero errors and zero unconnected pads, with one inherited auxiliary-arc endpoint warning.
+- The user's final shape correction requires all 21 target pads (R14: 2, R15: 2, U1: 17) to be sharp rectangles with zero corner radius, superseding the earlier rounded-rectangle restoration. Apply Altium's native Rectangle shape and verify zero radius after save and reopen; refill surrounding copper for the changed corners. The redundant C7 VCC/VEE surface polygons are removed; both via-in-pad supply connections remain. All 84 pad shapes are independently audited.
+- Altium 25.8.1 open/save/reopen is verified through its native scripting API. The delivered file was saved by Altium, which regenerated the missing file-version information; reopening created no new conversion report. Native ERC, repour and DRC, and SI/PI/EMC/thermal/manufacturing validation remain pending. See [Rev D notes](hardware/THS3491_RGT_G20/altium_revD/README.md) and its validation records.
 
 Reference identifiers used in this work: TI THS3491 RGT EVM guide SLOU483, TI HSP006A design source, and the user's annotated EVM images. Stackup dimensions, procurement availability, and completed validation must be documented from the actual implementation rather than inferred from this requirements record.

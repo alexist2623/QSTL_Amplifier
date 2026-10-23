@@ -1,0 +1,621 @@
+{
+  "pcb_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
+  "placement": {
+    "description": "User requested rectangular input copper with capacitor centers on boundaries, both rails 180-degree symmetric.",
+    "symmetry_center_mm": [
+      18.79601,
+      27.94
+    ],
+    "moves": {
+      "C1": [
+        26.77161,
+        4.9,
+        90
+      ],
+      "C2": [
+        10.82041,
+        50.98,
+        -90
+      ],
+      "C3": [
+        26.77161,
+        12.56139,
+        -90
+      ],
+      "C4": [
+        10.82041,
+        43.31861,
+        90
+      ],
+      "L1": [
+        26.77161,
+        8.9,
+        -90
+      ],
+      "L2": [
+        10.82041,
+        46.98,
+        90
+      ]
+    },
+    "zone_rectangles_mm": {
+      "L1_POSITIVE_INPUT": [
+        16.7,
+        4.9,
+        28.2,
+        8.9
+      ],
+      "L1_NEGATIVE_INPUT": [
+        9.39202,
+        46.98,
+        20.89202,
+        50.98
+      ],
+      "L1_VCC_ENTRY_VIA_ISLAND": [
+        22.2,
+        8.9,
+        28.2,
+        12.56139
+      ],
+      "L1_VEE_ENTRY_VIA_ISLAND": [
+        9.39202,
+        43.31861,
+        15.39202,
+        46.98
+      ]
+    },
+    "center_on_edge": {
+      "C1": [
+        "L1_POSITIVE_INPUT",
+        "top"
+      ],
+      "C2": [
+        "L1_NEGATIVE_INPUT",
+        "bottom"
+      ],
+      "C3": [
+        "L1_VCC_ENTRY_VIA_ISLAND",
+        "bottom"
+      ],
+      "C4": [
+        "L1_VEE_ENTRY_VIA_ISLAND",
+        "top"
+      ],
+      "L1": [
+        "L1_POSITIVE_INPUT",
+        "bottom"
+      ],
+      "L2": [
+        "L1_NEGATIVE_INPUT",
+        "top"
+      ]
+    },
+    "retained_prior_stitching_removals": [
+      {
+        "net": "GND",
+        "pos": [
+          20.908110000000008,
+          35.40356
+        ],
+        "diameter": 0.4,
+        "drill": 0.2,
+        "group": "GND stitching"
+      },
+      {
+        "net": "GND",
+        "pos": [
+          19.68500999999999,
+          34.239180000000005
+        ],
+        "diameter": 0.4,
+        "drill": 0.2,
+        "group": "GND stitching"
+      },
+      {
+        "net": "GND",
+        "pos": [
+          20.296559999999985,
+          34.82137
+        ],
+        "diameter": 0.4,
+        "drill": 0.2,
+        "group": "GND stitching"
+      },
+      {
+        "net": "GND",
+        "pos": [
+          10.789309999999986,
+          43.223389999999995
+        ],
+        "diameter": 0.4,
+        "drill": 0.2,
+        "group": "GND stitching"
+      },
+      {
+        "net": "GND",
+        "pos": [
+          21.62429999999999,
+          36.313590000000005
+        ],
+        "diameter": 0.4,
+        "drill": 0.2,
+        "group": "GND stitching"
+      }
+    ],
+    "filtered_via_arrays": [
+      {
+        "net": "VEE",
+        "zone": "L1_VEE_ENTRY_VIA_ISLAND",
+        "diameter_mm": 0.4,
+        "drill_mm": 0.2,
+        "pitch_mm": 0.8,
+        "rows": 4,
+        "columns": 4,
+        "positions_mm": [
+          [
+            12.35,
+            43.9
+          ],
+          [
+            13.15,
+            43.9
+          ],
+          [
+            13.95,
+            43.9
+          ],
+          [
+            14.75,
+            43.9
+          ],
+          [
+            12.35,
+            44.7
+          ],
+          [
+            13.15,
+            44.7
+          ],
+          [
+            13.95,
+            44.7
+          ],
+          [
+            14.75,
+            44.7
+          ],
+          [
+            12.35,
+            45.5
+          ],
+          [
+            13.15,
+            45.5
+          ],
+          [
+            13.95,
+            45.5
+          ],
+          [
+            14.75,
+            45.5
+          ],
+          [
+            12.35,
+            46.3
+          ],
+          [
+            13.15,
+            46.3
+          ],
+          [
+            13.95,
+            46.3
+          ],
+          [
+            14.75,
+            46.3
+          ]
+        ]
+      },
+      {
+        "net": "VCC",
+        "zone": "L1_VCC_ENTRY_VIA_ISLAND",
+        "diameter_mm": 0.4,
+        "drill_mm": 0.2,
+        "pitch_mm": 0.8,
+        "rows": 4,
+        "columns": 4,
+        "positions_mm": [
+          [
+            25.24202,
+            11.98
+          ],
+          [
+            24.44202,
+            11.98
+          ],
+          [
+            23.64202,
+            11.98
+          ],
+          [
+            22.84202,
+            11.98
+          ],
+          [
+            25.24202,
+            11.18
+          ],
+          [
+            24.44202,
+            11.18
+          ],
+          [
+            23.64202,
+            11.18
+          ],
+          [
+            22.84202,
+            11.18
+          ],
+          [
+            25.24202,
+            10.38
+          ],
+          [
+            24.44202,
+            10.38
+          ],
+          [
+            23.64202,
+            10.38
+          ],
+          [
+            22.84202,
+            10.38
+          ],
+          [
+            25.24202,
+            9.58
+          ],
+          [
+            24.44202,
+            9.58
+          ],
+          [
+            23.64202,
+            9.58
+          ],
+          [
+            22.84202,
+            9.58
+          ]
+        ]
+      }
+    ],
+    "filtered_island_expansion": "VEE width 2.8 to 6.0 mm to the right; VCC mirrored 180 degrees. User VSS interpreted as opposite +15 V VCC because no VSS net exists. Component centers stay on rectangle boundaries."
+  },
+  "removed_vias": [
+    {
+      "net": "VCC",
+      "pos": [
+        26.2,
+        9.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        11.392019999999999,
+        46.18000000000001
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        26.9,
+        9.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        10.69202,
+        46.18000000000001
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        27.6,
+        9.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        9.992019999999997,
+        46.18000000000001
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        26.2,
+        10.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        11.392019999999999,
+        45.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        26.9,
+        10.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        10.69202,
+        45.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        27.6,
+        10.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        9.992019999999997,
+        45.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "entry parallel vias"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        27.877200000000002,
+        12.285390000000007
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        11.371499999999983,
+        42.61184
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        10.75994999999999,
+        42.029650000000004
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        11.983050000000006,
+        43.19403
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    }
+  ],
+  "removed_via_count": 16,
+  "total_vias": 650,
+  "rf_signal_pads": [
+    {
+      "ref": "R5",
+      "pad": "2",
+      "net": "inpt_raw",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R14",
+      "pad": "1",
+      "net": "AMP_OUT",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R14",
+      "pad": "2",
+      "net": "output",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R3",
+      "pad": "1",
+      "net": "RG_DRIVE",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R3",
+      "pad": "2",
+      "net": "INV",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R2",
+      "pad": "2",
+      "net": "RG_DRIVE",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R4",
+      "pad": "1",
+      "net": "INV",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R4",
+      "pad": "2",
+      "net": "FB",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R7",
+      "pad": "2",
+      "net": "inpt",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "U1",
+      "pad": "1",
+      "net": "FB",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "U1",
+      "pad": "3",
+      "net": "INV",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "U1",
+      "pad": "4",
+      "net": "inpt",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "U1",
+      "pad": "10",
+      "net": "AMP_OUT",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "U1",
+      "pad": "11",
+      "net": "AMP_OUT",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R1",
+      "pad": "1",
+      "net": "inm",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R1",
+      "pad": "2",
+      "net": "RG_DRIVE",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R6",
+      "pad": "1",
+      "net": "inpt_raw",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R6",
+      "pad": "2",
+      "net": "inpt",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    },
+    {
+      "ref": "R15",
+      "pad": "1",
+      "net": "output",
+      "L2_GND_overlap_mm2": 0.0,
+      "margin_mm": 0.1
+    }
+  ],
+  "persistent_cutout_count": 31,
+  "L2_GND_connected": true,
+  "altium_open_save_reopen": true,
+  "checks_passed": 120,
+  "independent_DRC": {
+    "geometry": {
+      "errors": 0,
+      "warnings": 1,
+      "unconnected": 0
+    },
+    "native_copper": {
+      "errors": 0,
+      "warnings": 1,
+      "unconnected": 0
+    }
+  },
+  "native_Altium_DRC": false,
+  "figures": [
+    "input_rectangle_verification.png",
+    "L2_RF_pad_clearance.png"
+  ],
+  "figures_are_Altium_screenshots": false,
+  "subsequent_entry_array_changes": "entry_plane_array_check.json"
+}

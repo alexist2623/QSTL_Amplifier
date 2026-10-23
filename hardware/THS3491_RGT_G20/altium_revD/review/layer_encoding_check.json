@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "pad_layers": {
+    "1": 66,
+    "32": 7,
+    "74": 11
+  },
+  "track_layers": {
+    "1": 38,
+    "57": 4
+  },
+  "version_info_bytes": 22398
+}

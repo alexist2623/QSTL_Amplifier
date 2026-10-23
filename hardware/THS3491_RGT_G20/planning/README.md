@@ -1,5 +1,8 @@
 # Latest power and bypass placement plan
 
+The subsequent [native Rev D review snapshot](../altium_revD/README.md) now
+implements these corrections. These planning drawings remain the original intent record.
+
 These are planning illustrations, created without launching Altium or modifying the native Rev C schematic/PCB. They represent later corrections to the [Rev C snapshot](../altium_revC/README.md).
 
 - [L1 overview](power_plan_L1.png)

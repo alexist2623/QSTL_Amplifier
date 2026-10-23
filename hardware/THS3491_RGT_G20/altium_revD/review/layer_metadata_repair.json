@@ -1,0 +1,35 @@
+{
+  "old_v8_stack_name": "Two copper flex",
+  "old_v8_is_flex": "TRUE",
+  "corrected_v8_stack_name": "JLC04161H-7628",
+  "corrected_v8_is_flex": "FALSE",
+  "inactive_negative_plane_slots_preserved_for_legacy_readers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "active_copper_layers": [
+    "L1 Signal GND",
+    "L2 GND",
+    "L3 Split Power",
+    "L4 GND Thermal"
+  ],
+  "physical_copper_layer_ids_unchanged": true,
+  "version_conversion_dialog_resolved": true,
+  "altium_ui_verification": false,
+  "altium_native_open_save_reopen_verified": true,
+  "root_cause": "Tracks6 extended layer uint32 was at offset 40 instead of 41; pads retained Bottom layer extended ID"
+}

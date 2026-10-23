@@ -1,0 +1,539 @@
+{
+  "pcb_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
+  "previous_sha256": "60f29ad2cea429684977f071315265d8ed72a2060b267ef645631ff8bed43441",
+  "application_open_save_reopen": true,
+  "design_checks_passed": 120,
+  "expanded_island_width_mm": {
+    "before": 2.8,
+    "after": 6.0
+  },
+  "height_mm": 3.66139,
+  "via_arrays": [
+    {
+      "net": "VEE",
+      "zone": "L1_VEE_ENTRY_VIA_ISLAND",
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2,
+      "pitch_mm": 0.8,
+      "rows": 4,
+      "columns": 4,
+      "positions_mm": [
+        [
+          12.35,
+          43.9
+        ],
+        [
+          13.15,
+          43.9
+        ],
+        [
+          13.95,
+          43.9
+        ],
+        [
+          14.75,
+          43.9
+        ],
+        [
+          12.35,
+          44.7
+        ],
+        [
+          13.15,
+          44.7
+        ],
+        [
+          13.95,
+          44.7
+        ],
+        [
+          14.75,
+          44.7
+        ],
+        [
+          12.35,
+          45.5
+        ],
+        [
+          13.15,
+          45.5
+        ],
+        [
+          13.95,
+          45.5
+        ],
+        [
+          14.75,
+          45.5
+        ],
+        [
+          12.35,
+          46.3
+        ],
+        [
+          13.15,
+          46.3
+        ],
+        [
+          13.95,
+          46.3
+        ],
+        [
+          14.75,
+          46.3
+        ]
+      ]
+    },
+    {
+      "net": "VCC",
+      "zone": "L1_VCC_ENTRY_VIA_ISLAND",
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2,
+      "pitch_mm": 0.8,
+      "rows": 4,
+      "columns": 4,
+      "positions_mm": [
+        [
+          25.24202,
+          11.98
+        ],
+        [
+          24.44202,
+          11.98
+        ],
+        [
+          23.64202,
+          11.98
+        ],
+        [
+          22.84202,
+          11.98
+        ],
+        [
+          25.24202,
+          11.18
+        ],
+        [
+          24.44202,
+          11.18
+        ],
+        [
+          23.64202,
+          11.18
+        ],
+        [
+          22.84202,
+          11.18
+        ],
+        [
+          25.24202,
+          10.38
+        ],
+        [
+          24.44202,
+          10.38
+        ],
+        [
+          23.64202,
+          10.38
+        ],
+        [
+          22.84202,
+          10.38
+        ],
+        [
+          25.24202,
+          9.58
+        ],
+        [
+          24.44202,
+          9.58
+        ],
+        [
+          23.64202,
+          9.58
+        ],
+        [
+          22.84202,
+          9.58
+        ]
+      ]
+    }
+  ],
+  "added_via_count": 32,
+  "removed_GND_via_count": 3,
+  "added_vias": [
+    {
+      "net": "VEE",
+      "pos": [
+        12.35,
+        43.9
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.15,
+        43.9
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.95,
+        43.9
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        14.75,
+        43.9
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        12.35,
+        44.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.15,
+        44.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.95,
+        44.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        14.75,
+        44.7
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        12.35,
+        45.5
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.15,
+        45.5
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.95,
+        45.5
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        14.75,
+        45.5
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        12.35,
+        46.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.15,
+        46.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        13.95,
+        46.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VEE",
+      "pos": [
+        14.75,
+        46.3
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        25.24202,
+        11.98
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        24.44202,
+        11.98
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        23.64202,
+        11.98
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        22.84202,
+        11.98
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        25.24202,
+        11.18
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        24.44202,
+        11.18
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        23.64202,
+        11.18
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        22.84202,
+        11.18
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        25.24202,
+        10.38
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        24.44202,
+        10.38
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        23.64202,
+        10.38
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        22.84202,
+        10.38
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        25.24202,
+        9.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        24.44202,
+        9.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        23.64202,
+        9.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    },
+    {
+      "net": "VCC",
+      "pos": [
+        22.84202,
+        9.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "filtered entry via array"
+    }
+  ],
+  "removed_vias": [
+    {
+      "net": "GND",
+      "pos": [
+        13.176789999999997,
+        43.164680000000004
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        14.370529999999988,
+        43.13532000000001
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    },
+    {
+      "net": "GND",
+      "pos": [
+        15.564270000000008,
+        43.105959999999996
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "group": "GND stitching"
+    }
+  ],
+  "total_vias": 650,
+  "new_via_min_L2_GND_clearance_mm": 0.20549886895279684,
+  "components_pads_tracks_arcs_unchanged": true,
+  "L2_RF_pad_cutouts_unchanged": true,
+  "independent_DRC": {
+    "geometry": {
+      "errors": 0,
+      "warnings": 1,
+      "unconnected": 0
+    },
+    "native_copper": {
+      "errors": 0,
+      "warnings": 1,
+      "unconnected": 0
+    }
+  },
+  "Altium_native_DRC_performed": false,
+  "VSS_interpretation": "Opposite VCC (+15 V) rail; no VSS net exists in this PCB.",
+  "figure": "entry_plane_via_arrays.png",
+  "figure_is_Altium_screenshot": false
+}

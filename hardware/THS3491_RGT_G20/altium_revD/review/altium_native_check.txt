@@ -1,0 +1,104 @@
+START
+Document opened
+NORMALIZED
+Board available
+COLLECTED=21
+EDIT=R14.1
+SHAPE SET
+RADIUS SET
+EDIT=R14.2
+SHAPE SET
+RADIUS SET
+EDIT=U1.1
+SHAPE SET
+RADIUS SET
+EDIT=U1.2
+SHAPE SET
+RADIUS SET
+EDIT=U1.3
+SHAPE SET
+RADIUS SET
+EDIT=U1.4
+SHAPE SET
+RADIUS SET
+EDIT=U1.5
+SHAPE SET
+RADIUS SET
+EDIT=U1.6
+SHAPE SET
+RADIUS SET
+EDIT=U1.7
+SHAPE SET
+RADIUS SET
+EDIT=U1.8
+SHAPE SET
+RADIUS SET
+EDIT=U1.9
+SHAPE SET
+RADIUS SET
+EDIT=U1.10
+SHAPE SET
+RADIUS SET
+EDIT=U1.11
+SHAPE SET
+RADIUS SET
+EDIT=U1.12
+SHAPE SET
+RADIUS SET
+EDIT=U1.13
+SHAPE SET
+RADIUS SET
+EDIT=U1.14
+SHAPE SET
+RADIUS SET
+EDIT=U1.15
+SHAPE SET
+RADIUS SET
+EDIT=U1.16
+SHAPE SET
+RADIUS SET
+EDIT=U1.17
+SHAPE SET
+RADIUS SET
+EDIT=R15.1
+SHAPE SET
+RADIUS SET
+EDIT=R15.2
+SHAPE SET
+RADIUS SET
+Changed=21
+SAVED
+Native save succeeded
+Closed saved document
+REOPENED
+Native reopen succeeded
+PAD,R14,1,shape=2,radius_pct=50,xsize=314961,ysize=374016,radius=0
+PAD,R14,2,shape=2,radius_pct=50,xsize=314961,ysize=374016,radius=0
+PAD,U1,1,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,2,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,3,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,4,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,5,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,6,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,7,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,8,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,9,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,10,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,11,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,12,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,13,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,14,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,15,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,16,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
+PAD,U1,17,shape=2,radius_pct=50,xsize=570866,ysize=570866,radius=0
+PAD,R15,1,shape=2,radius_pct=50,xsize=403543,ysize=551181,radius=0
+PAD,R15,2,shape=2,radius_pct=50,xsize=403543,ysize=551181,radius=0
+Verified=21
+Failures=0
+Pads=84
+TopPads=66
+BottomPads=7
+MultiPads=11
+OtherPads=0
+Tracks=42
+Vias=650

@@ -1,0 +1,11 @@
+Designator,Value,Footprint,MPN,LCSC,Assembly,Note
+J1,SMA IN-,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+J2,SMA IN+,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+J3,SMA OUT,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+TP1,GND,CC_TP105-01-09,PCB_TEST_PAD,,MANUAL,stock not rechecked in Rev C or Rev D
+J4,VIN_P,WIRE_PAD,WIRE_SOLDER_PADS,,MANUAL,stock not rechecked in Rev C or Rev D
+J5,GND,WIRE_PAD,GND,,MANUAL,stock not rechecked in Rev C or Rev D
+J6,VIN_N,WIRE_PAD,VIN_N,,MANUAL,stock not rechecked in Rev C or Rev D
+J8,GND,WIRE_PAD,GND,,MANUAL,stock not rechecked in Rev C or Rev D
+J7,TEMP / GND,PinHeader_1x02_P2.54mm_Vertical,GENERIC_1x02_2.54mm,,MANUAL,TEMP=1 / GND=2; 2.54mm; no shorting cap
+H9,7109DG,Aavid_7109DG,7109DG,C2844701,MANUAL,stock not rechecked in Rev C or Rev D

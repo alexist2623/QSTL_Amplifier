@@ -1,0 +1,74 @@
+{
+  "units": "mm",
+  "orientation": "Top view, output SMA on right; no rotation",
+  "qstl": {
+    "board_size": [
+      41.65601,
+      68.58
+    ],
+    "mount_hole_pitch": [
+      31.495999999999995,
+      58.42
+    ],
+    "hole_diameter": 3.175,
+    "holes": {
+      "H3": [
+        5.08001,
+        5.08
+      ],
+      "H4": [
+        36.57601,
+        5.08
+      ],
+      "H1": [
+        5.08001,
+        63.5
+      ],
+      "H2": [
+        36.57601,
+        63.5
+      ]
+    }
+  },
+  "ths4021evm": {
+    "board_size_approx": [
+      43.18,
+      35.559999999999995
+    ],
+    "hole_pitch_estimate": [
+      34.85543563610374,
+      27.22401987646016
+    ],
+    "artwork_center_estimates": [
+      [
+        3.999575623615203,
+        4.143243373168612
+      ],
+      [
+        38.898074450342094,
+        4.0529920942611195
+      ],
+      [
+        4.0857020048615,
+        31.272501931479805
+      ],
+      [
+        38.898074450342094,
+        31.371773288870244
+      ]
+    ],
+    "method": "Normalize Figure 2-1 board outline independently in X/Y to the approximate 1.7 by 1.4 inch size; average opposite hole rows/columns",
+    "limitation": "Figure 2-1 is explicitly not to scale. Hole dimensions and tolerances are not provided. These are rough illustration-based estimates, not verified mechanical coordinates.",
+    "source_url": "https://www.ti.com/lit/ug/slou063/slou063.pdf",
+    "pdf_page": 14
+  },
+  "board_size_difference_qstl_minus_ti": [
+    -1.5239899999999977,
+    33.02
+  ],
+  "pitch_difference_ti_minus_qstl": [
+    3.359435636103747,
+    -31.19598012353984
+  ],
+  "conclusion": "No direct four-hole mounting compatibility in this orientation; exact adapter dimensions require TI mechanical CAD or physical measurement"
+}

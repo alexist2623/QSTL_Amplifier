@@ -1,5 +1,8 @@
 # THS3491 RGT G≈20 — Altium Rev C 검토본
 
+후속 CAD는 [Rev D](../altium_revD/README.md)에 있다. 아래 내용과 이 폴더의
+네이티브 CAD는 원래 Rev C 기록이며, 최신 배치 및 스택 메타데이터 수정은 Rev D에 적용했다.
+
 2026-10-22. 편집 파일은 [프로젝트](QSTL_THS3491_RGT_G20_RevC.PrjPcb), [회로도](QSTL_THS3491_RGT_G20_RevC.SchDoc), [PCB](QSTL_THS3491_RGT_G20_RevC.PcbDoc)이다. **Altium 내부 열기·저장·ERC·repour·DRC는 미검증이며 제조 승인본은 아니다.** 이 PC에서 Altium 편집 화면과 스크립트 검증 로그를 확보하지 못해, 생성 파일을 별도 Altium 판독기로 재검사했다.
 
 ## Latest instructions versus this CAD snapshot

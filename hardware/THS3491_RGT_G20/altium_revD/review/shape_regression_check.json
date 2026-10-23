@@ -1,0 +1,94 @@
+{
+  "before_sha256": "3fca7f179ef5d96a64268a994c59d9721a3ca7108d78edf888bdc1b9d100bf57",
+  "before_shape_failures": [
+    [
+      "R14",
+      "1"
+    ],
+    [
+      "R14",
+      "2"
+    ],
+    [
+      "U1",
+      "1"
+    ],
+    [
+      "U1",
+      "2"
+    ],
+    [
+      "U1",
+      "3"
+    ],
+    [
+      "U1",
+      "4"
+    ],
+    [
+      "U1",
+      "5"
+    ],
+    [
+      "U1",
+      "6"
+    ],
+    [
+      "U1",
+      "7"
+    ],
+    [
+      "U1",
+      "8"
+    ],
+    [
+      "U1",
+      "9"
+    ],
+    [
+      "U1",
+      "10"
+    ],
+    [
+      "U1",
+      "11"
+    ],
+    [
+      "U1",
+      "12"
+    ],
+    [
+      "U1",
+      "13"
+    ],
+    [
+      "U1",
+      "14"
+    ],
+    [
+      "U1",
+      "15"
+    ],
+    [
+      "U1",
+      "16"
+    ],
+    [
+      "U1",
+      "17"
+    ],
+    [
+      "R15",
+      "1"
+    ],
+    [
+      "R15",
+      "2"
+    ]
+  ],
+  "after_shape_failures": 0,
+  "after_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
+  "before_evidence": "staging/pre_square_pad_repair_20261022/review/native_import_check.json",
+  "after_evidence": "native_import_check.json",
+  "criterion": "All 21 target pads are rectangles with four perpendicular copper corners."
+}
