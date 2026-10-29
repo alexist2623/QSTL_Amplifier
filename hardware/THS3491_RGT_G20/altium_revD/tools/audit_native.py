@@ -25,11 +25,13 @@ errors=[]; tol=.00002
 def check(ok,*detail):
     if not ok: errors.append(detail)
 def close(a,b): return math.dist(a,b)<tol
+check(set(fps)=={f['ref'] for f in g['parts']},'component_set')
 for f in g['parts']:
     q=fps[f['ref']]
     check(close(xy(q.GetPosition()),f['pos']),'component_position',f['ref'])
     check(abs((q.GetOrientationDegrees()-f['angle']+180)%360-180)<.0001,'component_angle',f['ref'])
 actual={(f.GetReference(),q.GetNumber()):q for f in b.GetFootprints() for q in f.Pads()}
+check(set(actual)=={(q['ref'],q['num']) for q in g['pads']},'pad_set')
 shape_details=[]
 for q in g['pads']:
     if not any(l.endswith('.Cu') for l in q['layers']): continue
@@ -37,6 +39,7 @@ for q in g['pads']:
     check(close(xy(a.GetPosition()),q['pos']),'pad_position',q['ref'],q['num'])
     check(a.GetNetname()==q['net'],'pad_net',q['ref'],q['num'])
     check(close(xy(a.GetSize()),q['size']),'pad_size',q['ref'],q['num'])
+    check(close(xy(a.GetDrillSize()),q['drill']),'pad_drill',q['ref'],q['num'])
     check(a.GetShape()==q['shape'],'pad_shape',q['ref'],q['num'],a.GetShape(),q['shape'])
     if q['ref'] in {'R14','R15','U1'}:
         check(a.GetShape()==p.PAD_SHAPE_RECT,'target_rectangular',q['ref'],q['num'])

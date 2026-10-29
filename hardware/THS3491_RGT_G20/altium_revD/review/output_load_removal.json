@@ -1,0 +1,17 @@
+{
+  "pcb_sha256": "3d68fa3248f065a161e02eab0fdd547ae11f988ab921041d8c6f45921e635e03",
+  "schematic_sha256": "1bd216699d09238871535dfaed1de08c0ceae013a99232ffd59a252341bcefd1",
+  "baseline_schematic_sha256": "e4d51af9d043647f51a6d0f54914be72bc23961d8d47e35136ff29d32c4b5de9",
+  "removed_component": "R15",
+  "removed_value": "1Meg",
+  "remaining_schematic_components": 30,
+  "remaining_schematic_pins": 78,
+  "remaining_pin_properties_unchanged": true,
+  "only_two_R15_branch_wires_removed": true,
+  "only_R15_ground_label_removed": true,
+  "obsolete_junction_removed": true,
+  "remaining_components_unchanged": true,
+  "review_silkscreen_notes_removed": true,
+  "output_signal_path_retained": true,
+  "native_schematic_ERC": false
+}

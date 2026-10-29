@@ -1,0 +1,4578 @@
+{
+  "request": "Ground via fence along the board perimeter.",
+  "baseline_pcb_sha256": "0d7b8c5da742aa37d82459813b368651645c3680c2f90f1c3f581dddfd6d71c6",
+  "center_inset_mm": 1.0,
+  "nominal_pitch_mm": 1.0,
+  "diameter_mm": 0.4,
+  "drill_mm": 0.2,
+  "minimum_copper_to_board_edge_mm": 0.8,
+  "RF_copper_edge_gap_mm": 0.9174,
+  "added_ground_vias": [
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.9914,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        2.982801,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        3.974201,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        4.965601,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        5.957001,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        6.948402,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        7.939802,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        8.931202,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        9.922602,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        10.914003,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        11.905403,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        12.896803,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        13.888203,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        14.879604,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        15.871004,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        16.862404,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        17.853804,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        18.845205,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        19.836605,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        20.828005,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        21.819405,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        22.810806,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        23.802206,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        24.793606,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        25.785006,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        26.776407,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        27.767807,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        28.759207,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        29.750607,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        30.742007,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        31.733408,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        32.724808,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        33.716208,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        34.707609,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        35.699009,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        36.690409,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        37.681809,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        38.673209,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        39.66461,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        1.0
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        2.987463
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        3.981194
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        5.968657
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        6.962388
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        8.949851
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        9.943582
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        11.931045
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        12.924776
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        14.912239
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        15.90597
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        17.893433
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        18.887164
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        20.874627
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        21.868358
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        35.780597
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        36.774328
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        38.761791
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        39.755522
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        41.742985
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        42.736716
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        44.724179
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        45.71791
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        47.705373
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        48.699104
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        50.686567
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        51.680299
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        53.667761
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        54.661493
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        56.648955
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        57.642687
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        59.630149
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        60.623881
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        62.611343
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        63.605075
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        65.592537
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        66.586269
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        39.66461,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        38.673209,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        37.681809,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        36.690409,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        35.699009,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        34.707608,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        33.716208,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        32.724808,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        31.733408,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        30.742007,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        29.750607,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        28.759207,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        27.767807,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        26.776407,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        25.785006,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        24.793606,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        23.802206,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        22.810806,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        21.819405,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        20.828005,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        19.836605,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        18.845205,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        17.853804,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        16.862404,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        15.871004,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        14.879604,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        13.888203,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        12.896803,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        11.905403,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        10.914003,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        9.922602,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        8.931202,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        7.939802,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        6.948401,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        5.957001,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        4.965601,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        3.974201,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        2.982801,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.9914,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        67.58
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        66.586269
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        65.592537
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        63.605075
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        62.611343
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        60.623881
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        59.630149
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        57.642687
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        56.648955
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        54.661493
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        53.667761
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        51.680299
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        50.686567
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        48.699104
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        47.705373
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        45.71791
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        44.724179
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        42.736716
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        38.761791
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        33.793134
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        29.818209
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        27.830746
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        26.837015
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        12.924776
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        11.931045
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        9.943582
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        8.949851
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        6.962388
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        5.968657
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        3.981194
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.0,
+        2.987463
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    }
+  ],
+  "reused_existing_vias": [
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        2
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        5
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        8
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        11
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        14
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        17
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        20
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.61934000000001,
+        22.86
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.61934000000001,
+        24.206199999999995
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        26
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.828319,
+        29.6309
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.61934000000001,
+        31.75
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.61934000000001,
+        33.096199999999996
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        35
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        38
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        41
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        44
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        47
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        50
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        53
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        56
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        59
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        62
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        40.65601,
+        65
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        65
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        62
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        59
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        56
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        53
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        50
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        47
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        44
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        41.14799000000001
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        39.80179
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        38
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        0.847881,
+        34.3771
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        32.38499
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        31.038790000000006
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        29
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        25.908
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        24.561800000000005
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        23
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.113474,
+        19.1371
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        17.144999999999996
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1.036680000000004,
+        15.7988
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        14
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        11
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        8
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        5
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    },
+    {
+      "net": "GND",
+      "pos": [
+        1,
+        2
+      ],
+      "diameter": 0.4,
+      "drill": 0.2
+    }
+  ],
+  "protected_targets": [
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        24.849552
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        26.837015
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        27.830746
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        28.824478
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        30.81194
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        33.793134
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        41.742985
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        36.774328
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        35.780597
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        31.805672
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        23.855821
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        21.868358
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        20.874627
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        19.880896
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        17.893433
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        14.912239
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "side": "top",
+      "pos": [
+        1.0,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        1.9914,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        1.9914,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        2.982801,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        2.982801,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        3.974201,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        3.974201,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        4.965601,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        4.965601,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        5.957001,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        5.957001,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        6.948402,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        6.948402,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        7.939802,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        7.939802,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        8.931202,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        8.931202,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        9.922602,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        9.922602,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        10.914003,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        10.914003,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        11.905403,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        11.905403,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        12.896803,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        12.896803,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        13.888203,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        13.888203,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        14.879604,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        14.879604,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        15.871004,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        15.871004,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        16.862404,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        16.862404,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        17.853804,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        17.853804,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        18.845205,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        18.845205,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        19.836605,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        19.836605,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        20.828005,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        20.828005,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        21.819405,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        21.819405,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        22.810806,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        22.810806,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        23.802206,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        23.802206,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        24.793606,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        24.793606,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        25.785006,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        25.785006,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        26.776407,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        26.776407,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        27.767807,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        27.767807,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        28.759207,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        28.759207,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        29.750607,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        29.750607,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        30.742007,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        30.742007,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        31.733408,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        31.733408,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        32.724808,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        32.724808,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        33.716208,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        33.716208,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        34.707609,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        34.707609,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        35.699009,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        35.699009,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        36.690409,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        36.690409,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        37.681809,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        37.681809,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        38.673209,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        38.673209,
+        1.0
+      ]
+    },
+    {
+      "side": "top",
+      "pos": [
+        39.66461,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        39.66461,
+        1.0
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        1.0
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        1.0
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        1.993731
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        2
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        2.987463
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        2.987463
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        3.981194
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        3.981194
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        4.974925
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        5
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        5.968657
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        5.968657
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        6.962388
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        6.962388
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        7.956119
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        8
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        8.949851
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        8.949851
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        9.943582
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        9.943582
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        10.937313
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        11
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        11.931045
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        11.931045
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        12.924776
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        12.924776
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        13.918507
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        14
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        14.912239
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        14.912239
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        15.90597
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        15.90597
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        16.899701
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        17
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        17.893433
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        17.893433
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        18.887164
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        18.887164
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        19.880896
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        20
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        20.874627
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        20.874627
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        21.868358
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        21.868358
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        22.86209
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.61934000000001,
+        22.86
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        23.855821
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.61934000000001,
+        24.206199999999995
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        24.849552
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        25.843284
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        26
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        26.837015
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        27.830746
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        28.824478
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        29.818209
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.828319,
+        29.6309
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        30.81194
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        31.805672
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.61934000000001,
+        31.75
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        32.799403
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.61934000000001,
+        33.096199999999996
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        33.793134
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        34.786866
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        35
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        35.780597
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        35.780597
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        36.774328
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        36.774328
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        37.76806
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        38
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        38.761791
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        38.761791
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        39.755522
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        39.755522
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        40.749254
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        41
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        41.742985
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        41.742985
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        42.736716
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        42.736716
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        43.730448
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        44
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        44.724179
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        44.724179
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        45.71791
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        45.71791
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        46.711642
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        47
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        47.705373
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        47.705373
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        48.699104
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        48.699104
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        49.692836
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        50
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        50.686567
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        50.686567
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        51.680299
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        51.680299
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        52.67403
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        53
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        53.667761
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        53.667761
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        54.661493
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        54.661493
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        55.655224
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        56
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        56.648955
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        56.648955
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        57.642687
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        57.642687
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        58.636418
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        59
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        59.630149
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        59.630149
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        60.623881
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        60.623881
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        61.617612
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        62
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        62.611343
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        62.611343
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        63.605075
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        63.605075
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        64.598806
+      ],
+      "result": "existing",
+      "via_pos": [
+        40.65601,
+        65
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        65.592537
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        65.592537
+      ]
+    },
+    {
+      "side": "right",
+      "pos": [
+        40.65601,
+        66.586269
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        66.586269
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        40.65601,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        40.65601,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        39.66461,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        39.66461,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        38.673209,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        38.673209,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        37.681809,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        37.681809,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        36.690409,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        36.690409,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        35.699009,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        35.699009,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        34.707608,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        34.707608,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        33.716208,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        33.716208,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        32.724808,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        32.724808,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        31.733408,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        31.733408,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        30.742007,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        30.742007,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        29.750607,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        29.750607,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        28.759207,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        28.759207,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        27.767807,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        27.767807,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        26.776407,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        26.776407,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        25.785006,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        25.785006,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        24.793606,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        24.793606,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        23.802206,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        23.802206,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        22.810806,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        22.810806,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        21.819405,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        21.819405,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        20.828005,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        20.828005,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        19.836605,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        19.836605,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        18.845205,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        18.845205,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        17.853804,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        17.853804,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        16.862404,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        16.862404,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        15.871004,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        15.871004,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        14.879604,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        14.879604,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        13.888203,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        13.888203,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        12.896803,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        12.896803,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        11.905403,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        11.905403,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        10.914003,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        10.914003,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        9.922602,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        9.922602,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        8.931202,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        8.931202,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        7.939802,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        7.939802,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        6.948401,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        6.948401,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        5.957001,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        5.957001,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        4.965601,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        4.965601,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        3.974201,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        3.974201,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        2.982801,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        2.982801,
+        67.58
+      ]
+    },
+    {
+      "side": "bottom",
+      "pos": [
+        1.9914,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        1.9914,
+        67.58
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        67.58
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        67.58
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        66.586269
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        66.586269
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        65.592537
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        65.592537
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        64.598806
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        65
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        63.605075
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        63.605075
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        62.611343
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        62.611343
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        61.617612
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        62
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        60.623881
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        60.623881
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        59.630149
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        59.630149
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        58.636418
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        59
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        57.642687
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        57.642687
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        56.648955
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        56.648955
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        55.655224
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        56
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        54.661493
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        54.661493
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        53.667761
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        53.667761
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        52.67403
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        53
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        51.680299
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        51.680299
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        50.686567
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        50.686567
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        49.692836
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        50
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        48.699104
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        48.699104
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        47.705373
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        47.705373
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        46.711642
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        47
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        45.71791
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        45.71791
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        44.724179
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        44.724179
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        43.730448
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        44
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        42.736716
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        42.736716
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        41.742985
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        40.749254
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        41.14799000000001
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        39.755522
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        39.80179
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        38.761791
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        38.761791
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        37.76806
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        38
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        36.774328
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        35.780597
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        34.786866
+      ],
+      "result": "existing",
+      "via_pos": [
+        0.847881,
+        34.3771
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        33.793134
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        33.793134
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        32.799403
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        32.38499
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        31.805672
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        30.81194
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        31.038790000000006
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        29.818209
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        29.818209
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        28.824478
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        29
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        27.830746
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        27.830746
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        26.837015
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        26.837015
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        25.843284
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        25.908
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        24.849552
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        24.561800000000005
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        23.855821
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        22.86209
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        23
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        21.868358
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        20.874627
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        19.880896
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance",
+        "RF 3W clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        18.887164
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.113474,
+        19.1371
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        17.893433
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        16.899701
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        17.144999999999996
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        15.90597
+      ],
+      "result": "existing",
+      "via_pos": [
+        1.036680000000004,
+        15.7988
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        14.912239
+      ],
+      "result": "protected gap",
+      "reasons": [
+        "not fully inside GND on all four layers",
+        "pad clearance"
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        13.918507
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        14
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        12.924776
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        12.924776
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        11.931045
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        11.931045
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        10.937313
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        11
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        9.943582
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        9.943582
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        8.949851
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        8.949851
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        7.956119
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        8
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        6.962388
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        6.962388
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        5.968657
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        5.968657
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        4.974925
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        5
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        3.981194
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        3.981194
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        2.987463
+      ],
+      "result": "added",
+      "via_pos": [
+        1.0,
+        2.987463
+      ]
+    },
+    {
+      "side": "left",
+      "pos": [
+        1.0,
+        1.993731
+      ],
+      "result": "existing",
+      "via_pos": [
+        1,
+        2
+      ]
+    }
+  ],
+  "unchanged": [
+    "all previous vias including mounting rings and RF fence",
+    "board outline and holes",
+    "pads and parts",
+    "tracks and arcs",
+    "all copper and cutouts",
+    "bottom mask",
+    "schematic",
+    "3D models"
+  ]
+}

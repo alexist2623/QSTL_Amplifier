@@ -642,5 +642,6 @@
       "warnings": 1,
       "unconnected": 0
     }
-  }
+  },
+  "record_scope": "Historical check before R15 removal and 3D-model addition; see validation_summary.json for the delivered file"
 }

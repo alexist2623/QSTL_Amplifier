@@ -1,0 +1,9 @@
+Designator,Value,Footprint,MPN,LCSC,Assembly,Note
+J1,SMA IN-,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+J2,SMA IN+,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+J3,SMA OUT,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+TP1,GND,CC_TP105-01-09,PCB_TEST_PAD,,MANUAL,stock not rechecked in Rev C or Rev D
+J7,TEMP / GND,PinHeader_1x02_P2.54mm_Vertical,GENERIC_1x02_2.54mm,,MANUAL,TEMP=1 / GND=2; 2.54mm; no shorting cap
+H9,7109DG,Aavid_7109DG,7109DG,C2844701,MANUAL,stock not rechecked in Rev C or Rev D
+J9,+15V DC,SameSky_PJ-102AH,PJ-102AH,,MANUAL THT,Same Sky; 24VDC 5A; 5.5/2.1mm plug; center +15V / sleeve GND; switched pin NC; procure exact MPN; JLC stocked supply not verified
+J10,-15V DC,SameSky_PJ-102AH,PJ-102AH,,MANUAL THT,Same Sky; 24VDC 5A; 5.5/2.1mm plug; center -15V / sleeve GND; switched pin NC; procure exact MPN; JLC stocked supply not verified

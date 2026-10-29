@@ -617,5 +617,6 @@
     "L2_RF_pad_clearance.png"
   ],
   "figures_are_Altium_screenshots": false,
-  "subsequent_entry_array_changes": "entry_plane_array_check.json"
+  "subsequent_entry_array_changes": "entry_plane_array_check.json",
+  "record_scope": "Historical check before R15 removal and 3D-model addition; see validation_summary.json for the delivered file"
 }

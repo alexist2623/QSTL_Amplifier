@@ -3,3 +3,6 @@
 *.SchDoc binary
 *.PrjPcb -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.PrjPcbStructure -text
+# Embedded STEP verification compares exact bytes with these source files.
+*.step -text
+*.stp -text

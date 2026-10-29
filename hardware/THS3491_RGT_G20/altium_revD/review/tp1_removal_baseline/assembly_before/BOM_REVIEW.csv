@@ -1,0 +1,33 @@
+Designator,Value,Footprint,MPN,LCSC,Assembly,Note
+U1,THS3491IRGTR,RGT0016A,THS3491IRGTR,C2058688,SMT,stock not rechecked in Rev C or Rev D
+R1,49.9,0603L,CRCW060349R9FKEA,C844930,SMT,stock not rechecked in Rev C or Rev D
+R2,0,0603L,CRCW06030000Z0EA,C844915,SMT,stock not rechecked in Rev C or Rev D
+R3,20.5,0603L,RC0603FR-0720R5L,C245934,SMT,stock not rechecked in Rev C or Rev D
+R4,390,0603L,CRCW0603390RFKEAHP,C313742,SMT,stock not rechecked in Rev C or Rev D
+R5,49.9 DNP,0603L,CRCW060349R9FKEA,C844930,DNP,stock not rechecked in Rev C or Rev D
+R6,0,0603L,CRCW06030000Z0EA,C844915,SMT,stock not rechecked in Rev C or Rev D
+R7,49.9,0603L,CRCW060349R9FKEA,C844930,SMT,stock not rechecked in Rev C or Rev D
+R8,0,0603L,CRCW06030000Z0EA,C844915,SMT,stock not rechecked in Rev C or Rev D
+C1,4.7u / 50V,1206,GRM319R61H475KA12D,C415529,SMT,stock not rechecked in Rev C or Rev D
+C2,4.7u / 50V,1206,GRM319R61H475KA12D,C415529,SMT,stock not rechecked in Rev C or Rev D
+C3,1u / 50V,0805L,C2012X5R1H105KT000N,C49296934,SMT,stock not rechecked in Rev C or Rev D
+C4,1u / 50V,0805L,C2012X5R1H105KT000N,C49296934,SMT,stock not rechecked in Rev C or Rev D
+C5,100n / 50V X7R,0603L,CL10B104KB8NNNC,C1591,SMT,stock not rechecked in Rev C or Rev D
+C6,100n / 50V X7R,0603L,CL10B104KB8NNNC,C1591,SMT,stock not rechecked in Rev C or Rev D
+C7,10n / 100V,0603L,06031C103KAT2A,C2167322,SMT,stock not rechecked in Rev C or Rev D
+C8,100n / 25V,0402L,GRM155R61E104KA87D,C77008,SMT,stock not rechecked in Rev C or Rev D
+L1,220R @100MHz,0805_HV,BLM21PG221SN1D,C85840,SMT,stock not rechecked in Rev C or Rev D
+L2,220R @100MHz,0805_HV,BLM21PG221SN1D,C85840,SMT,stock not rechecked in Rev C or Rev D
+J1,SMA IN-,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+J2,SMA IN+,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+J3,SMA OUT,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
+TP1,GND,CC_TP105-01-09,PCB_TEST_PAD,,MANUAL,stock not rechecked in Rev C or Rev D
+R14,49.9,R_0603_1608Metric,CRCW060349R9FKEA,C844930,SMT,stock not rechecked in Rev C or Rev D
+J7,TEMP / GND,PinHeader_1x02_P2.54mm_Vertical,GENERIC_1x02_2.54mm,,MANUAL,TEMP=1 / GND=2; 2.54mm; no shorting cap
+H9,7109DG,Aavid_7109DG,7109DG,C2844701,MANUAL,stock not rechecked in Rev C or Rev D
+H1,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
+H2,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
+H3,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
+H4,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
+J9,+15V DC,SameSky_PJ-102AH,PJ-102AH,,MANUAL THT,Same Sky; 24VDC 5A; 5.5/2.1mm plug; center +15V / sleeve GND; switched pin NC; procure exact MPN; JLC stocked supply not verified
+J10,-15V DC,SameSky_PJ-102AH,PJ-102AH,,MANUAL THT,Same Sky; 24VDC 5A; 5.5/2.1mm plug; center -15V / sleeve GND; switched pin NC; procure exact MPN; JLC stocked supply not verified

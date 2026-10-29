@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-27",
+  "removed_components": ["R15"],
+  "reason": "User requested removal of the 1 Mohm output load",
+  "removed_schematic_unique_ids": ["WIGXTQTA", "ZFXXKETI", "QDKCBLYZ", "GBCRHJRD", "POFBJDVA"],
+  "removed_l2_cutout": "L2_RF_PAD_R15_1",
+  "retain_output_path": "R14.2 to J3.1",
+  "retain_ground_via_mm": [31.0, 29.765],
+  "ground_via_purpose": "Existing GND stitching via remains after removal of the overlying R15.2 pad"
+}

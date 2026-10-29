@@ -1,34 +1,34 @@
 {
   "open_save_reopen_passed": true,
-  "pcb_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
-  "log_sha256": "003b99f4a89c39e198e1906fe964ad68159e5408f0cc53a4f04bba37e74c68ef",
-  "script_sha256": "f2d07b221aa28a918b469224ccd36c74511360bca554a6d3001d19a45c43a4ce",
+  "pcb_sha256": "d9444025681b95a9d971c1db2267c07355b0a4fd37ab991d7db80124ee0545f3",
+  "log_sha256": "1cfb06bb18ebcea55768202a31f79b0f98653cd1636fea8c85136f8c7c32eb49",
+  "script_sha256": "d50fb28408d816020f3ed214b8165d94f1745b87a10d5b4891d6f24b4fa487b9",
   "application": "Altium Designer Professional 25.8.1",
   "native_pad_counts": {
-    "top": 66,
+    "top": 64,
     "bottom": 7,
-    "multilayer": 11,
-    "total": 84
+    "multilayer": 12,
+    "total": 83
   },
-  "native_tracks": 42,
-  "signal_tracks": 38,
-  "mechanical_outline_tracks": 4,
-  "native_vias": 650,
+  "native_tracks": 54,
+  "signal_tracks": 42,
+  "mechanical_outline_tracks": 12,
+  "native_vias": 965,
   "new_version_conversion_report": false,
   "layer_encoding": {
     "errors": [],
     "pad_layers": {
-      "1": 66,
+      "1": 64,
       "32": 7,
-      "74": 11
+      "74": 12
     },
     "track_layers": {
-      "1": 38,
-      "57": 4
+      "1": 42,
+      "57": 12
     },
     "version_info_bytes": 22398
   },
-  "native_rectangles_verified": 21,
+  "native_rectangles_verified": 19,
   "native_corner_radius_mm": 0,
   "native_shape_failures": 0,
   "screenshot_verified": false,

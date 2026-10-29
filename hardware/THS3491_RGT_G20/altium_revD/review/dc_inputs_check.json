@@ -1,0 +1,36 @@
+{
+  "pcb_sha256": "55702a0e654c572d560edc3d926949c0e0578a76b0aae2b6b74c39845c7e9ea4",
+  "schematic_sha256": "1d851415035ebfcb692560018050cb9fc8bb16f7bccb432b606fdaf3b9f49bce",
+  "baseline_pcb_sha256": "3d68fa3248f065a161e02eab0fdd547ae11f988ab921041d8c6f45921e635e03",
+  "baseline_schematic_sha256": "1bd216699d09238871535dfaed1de08c0ceae013a99232ffd59a252341bcefd1",
+  "existing_schematic_preserved": true,
+  "new_connector_pin_nets": {
+    "J9.1": "VIN_P",
+    "J9.2": "GND",
+    "J9.3": "NC",
+    "J10.1": "VIN_N",
+    "J10.2": "GND",
+    "J10.3": "NC"
+  },
+  "native_schematic_save_reopen_verified": true,
+  "schematic_components": 28,
+  "pcb_components": 32,
+  "pads": 84,
+  "vias": 965,
+  "board_outline_mounts_RF_filters_L2_windows_preserved": true,
+  "removed_only_overlapping_ground_vias": 8,
+  "removed_components": [
+    "J4",
+    "J5",
+    "J6",
+    "J8"
+  ],
+  "added_components": [
+    "J10",
+    "J9"
+  ],
+  "review_silkscreen_notes_removed": true,
+  "polarity_silkscreen_verified": true,
+  "native_ERC_DRC": false,
+  "screenshot_verified": false
+}

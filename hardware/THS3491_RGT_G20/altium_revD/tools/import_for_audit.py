@@ -2,11 +2,14 @@
 from pathlib import Path
 import hashlib
 import json
+import argparse
 import pcbnew as p
 import wx
 
 ROOT=Path(__file__).resolve().parents[1]
-source=ROOT/'QSTL_THS3491_RGT_G20_RevD.PcbDoc'
+parser=argparse.ArgumentParser()
+parser.add_argument('--pcb',type=Path,default=ROOT/'QSTL_THS3491_RGT_G20_RevD.PcbDoc')
+source=parser.parse_args().pcb.resolve()
 target=ROOT/'staging/native_roundtrip.kicad_pcb'
 app=wx.App(False); log=wx.LogStderr()
 board=p.LoadBoard(str(source),p.IO_MGR.ALTIUM_DESIGNER)

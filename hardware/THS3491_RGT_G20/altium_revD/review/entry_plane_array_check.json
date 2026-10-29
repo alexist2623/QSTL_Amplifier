@@ -535,5 +535,6 @@
   "Altium_native_DRC_performed": false,
   "VSS_interpretation": "Opposite VCC (+15 V) rail; no VSS net exists in this PCB.",
   "figure": "entry_plane_via_arrays.png",
-  "figure_is_Altium_screenshot": false
+  "figure_is_Altium_screenshot": false,
+  "record_scope": "Historical check before R15 removal and 3D-model addition; see validation_summary.json for the delivered file"
 }

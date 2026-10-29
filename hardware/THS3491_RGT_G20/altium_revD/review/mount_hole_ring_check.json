@@ -1,0 +1,21 @@
+{
+  "pcb_sha256": "55702a0e654c572d560edc3d926949c0e0578a76b0aae2b6b74c39845c7e9ea4",
+  "baseline_pcb_sha256": "369e0869364959b984d2ee408855c826471babc1c7bfb30f2912a40c2b41cc42",
+  "four_complete_24_via_rings": true,
+  "mount_ring_radius_3p4mm": true,
+  "mount_ring_GND_all_four_layers": true,
+  "mount_holes_and_existing_vias_preserved": true,
+  "mount_ring_drill_clearance_verified": true,
+  "mount_ring_copper_and_mask_preserved": true,
+  "added_vias": 96,
+  "total_vias": 965,
+  "ring_radius_mm": 3.4,
+  "via_diameter_mm": 0.4,
+  "via_drill_mm": 0.2,
+  "angle_pitch_degrees": 15,
+  "adjacent_via_pitch_mm": 0.8875781070963507,
+  "minimum_via_to_via_drill_gap_mm": 0.4846897107449473,
+  "minimum_mount_to_via_drill_gap_mm": 1.7124996770876275,
+  "nominal_6mm_screw_head_to_via_copper_gap_mm": 0.2,
+  "native_screenshot_verified": false
+}

@@ -29,7 +29,7 @@ This document records the user's instructions for the THS3491 RGT amplifier proj
 - Follow the actual TI RGT EVM drawing/source for RF component placement, orientation, and routing, especially at the input connectors and near U1.
 - Preserve the EVM's curved RF routing where applicable. Do not replace it with unrelated angular routes or change component placement merely to simplify drawing generation.
 - RF traces must flow through the appropriate SMD signal pads in the main signal path. Avoid a main RF line with a side branch or stub leading to a component that should sit directly in that path.
-- Latest L2 requirement: clear ground copper directly beneath RF signal-component pads. Apply localized pad windows to the 19 signal pads on R1-R7, R14/R15 and U1 I/O; retain grounded pads, the U1 exposed thermal pad, and continuity of the surrounding reference plane. The present 0.10-mm pad-window margin is a layout choice, not a validated impedance optimum.
+- Latest L2 requirement: clear ground copper directly beneath RF signal-component pads. Apply localized pad windows to the 18 signal pads on R1-R7, R14 and U1 I/O; retain grounded pads, the U1 exposed thermal pad, and continuity of the surrounding reference plane. The present 0.10-mm pad-window margin is a layout choice, not a validated impedance optimum.
 - Give particular attention to the input termination/configuration components, feedback network, amplifier pins, and output launch.
 - Design for signal integrity, power integrity, and EMC. Visual similarity to an EVM alone does not establish these properties.
 - Use an actual JLCPCB four-layer stackup as the impedance-design basis. Determine the coplanar-waveguide signal width and signal-to-ground gap from the selected stackup, copper, dielectric, and manufacturing assumptions; do not use arbitrary gaps or numbers from a different stack.
@@ -125,3 +125,73 @@ The latest capacitor and PD/NC corrections were first represented in planning dr
 - Altium 25.8.1 open/save/reopen is verified through its native scripting API. The delivered file was saved by Altium, which regenerated the missing file-version information; reopening created no new conversion report. Native ERC, repour and DRC, and SI/PI/EMC/thermal/manufacturing validation remain pending. See [Rev D notes](hardware/THS3491_RGT_G20/altium_revD/README.md) and its validation records.
 
 Reference identifiers used in this work: TI THS3491 RGT EVM guide SLOU483, TI HSP006A design source, and the user's annotated EVM images. Stackup dimensions, procurement availability, and completed validation must be documented from the actual implementation rather than inferred from this requirements record.
+
+## 12. Output and assembly follow-up (2026-10-27)
+
+- Remove R15, the physical 1-Mohm output load, from schematic, PCB, BOM and placement data. Preserve R14 and the main output route. This does not change the simulation source-amplitude convention in section 9.
+- Remove the two explanatory board silk notes (`TI RF geometry / JLC 4L adaptation` and `QSTL / THS3491 RGT / REV D`); retain functional power/header labels.
+- Embed 3D models for all 24 fitted components. DNP R5, bare solder/test pads and bare mounting holes have no body. Standard package and simplified mechanical models must be identified.
+- Current counts supersede section 11: 34 PCB components, 82 pads (64 top, 7 bottom, 11 multilayer), 650 vias, 19 sharp target pads and 18 RF-pad L2 windows. Native save/reopen, 24 embedded model placements and 121 checks passed. Independent DRC: zero errors, zero unconnected pads, one inherited RF-arc warning. Altium screenshot, native ERC/DRC and manufacturing review are not claimed.
+
+## 13. Adapter-only supply inputs (2026-10-28)
+
+- The latest user instruction cancels banana sockets: fit two DC barrel inputs only.
+- J9 is the +15 V input (center VIN_P, sleeve GND); J10 is the -15 V input (center VIN_N, sleeve GND). Their third switched-sleeve terminals are NC. Mark voltage and polarity on the top silkscreen. No voltage or polarity conversion is implemented.
+- Use Same Sky PJ-102AH, 5.5/2.1 mm mating plug, connector rating 24 VDC / 5 A. Specify manual THT assembly and exact manufacturer MPN; JLC stocked supply is not verified.
+- Remove obsolete J4/J5/J6/J8 wire pads from PCB, schematic and BOM. Connect the new inputs before existing ferrite filters. Keep the original 41.65601 x 68.58 mm outline, mounting holes, RF circuit, rectangular supply islands, filtered via arrays and L2 RF-pad windows.
+- Remove only the eight GND stitching vias overlapping new pads or power routes. Current counts supersede section 12: 32 PCB components, 84 pads (64 top, 7 bottom, 13 multilayer), 642 vias, 42 signal tracks, 3 RF arcs and 26 embedded models (11 assets).
+- Altium save/reopen and 123 design checks passed. Independent copper DRC has zero errors and zero unconnected pads, with the same inherited RF-arc warning. Nominal model clearance is at least 3.92 mm for J9 and 5.1352 mm for J10 against the other fitted bodies and a 6 mm mounting-screw envelope. Native ERC/DRC, direct app screenshots and manufacturing approval are not claimed.
+
+## 14. Positive input plane outline (2026-10-28 follow-up)
+
+- The user clarified the blue annotation as a VIN_P copper-outline change, not a connector-pin relocation. Expand only L1_POSITIVE_INPUT into the marked L shape. Keep C1/L1 centered on the existing filter-region boundaries. This supersedes the raw positive-input rectangle while retaining the filtered rectangular islands.
+- Preserve all pins, components, tracks, vias, mounting holes, models, negative input and schematic connectivity. J9 pin 1 is center/VIN_P, pin 2 sleeve/GND, pin 3 unused sleeve switch. The switch closes 2 to 3 without a plug and opens on insertion; no PCB trace is connected to pin 3.
+- The saved outline area is 99.47 mm² (previously 46.00 mm²). VIN_P clearance is at least 0.2055 mm from pad 2 and 1.10 mm from pad 3. Pad 2 remains connected to L2 and bottom GND. Altium save/reopen and 125 checks passed; independent DRC remains zero errors, zero unconnected pads, one inherited warning.
+
+## 15. Apply the input plane expansion to both rails (2026-10-28)
+
+- The user's follow-up explicitly extends section 14 to both inputs. Retain the expanded VIN_P and also expand VIN_N into an L-shaped connection between its existing input filter and J10. Keep all connector pin positions, components, tracks, vias and RF geometry unchanged.
+- Both rails have at least 0.2055 mm clearance to their GND pad 2 and 1.10 mm to their unused switch pad 3. Retain pad 2 GND connections on L2 and bottom copper; pin 3 has no PCB net. The respective polygon-outline areas are 99.47 and 143.26192 mm².
+- The delivered board passed Altium save/reopen, 26 embedded-model placement checks and 127 design checks. Independent DRC remains zero errors, zero unconnected pads and one inherited RF-arc warning.
+
+## 16. L2-only RF cutouts, VIN_P vias and broad bottom GND exposure (2026-10-28)
+
+- Remove the six inherited RF cutout objects on L3 and L4. Preserve L2's 18 pad-specific and three local windows, the top-layer local clearances, and the existing L3 separation between supply planes. These are copper voids, not physical drilled holes.
+- Remove the 12 GND stitching vias whose copper/clearance clips the VIN_P outline. Preserve all other vias, including filtered supply arrays and thermal vias. This supersedes the via-preservation constraint of section 15; the new total is 630.
+- The user explicitly selected broad bottom GND exposure, with component and connector pin vicinity protected by solder mask. Expose about 2350.23 mm2 of actual bottom GND, leaving at least 0.30 mm around pin projections and non-GND vias and approximately 0.50 mm at the board perimeter. The central U1 EP underside must be exposed. Existing pad mask/paste settings, including the separate H9 heatsink solder pad, stay unchanged.
+- Preserve schematic connectivity, all components/pads/tracks/arcs, board outline and mounting holes, and all 26 embedded models. Validate the final native Altium save/reopen, actual saved mask contours, pin protection, copper geometry and independent DRC. Do not claim direct application screenshot verification.
+
+## 17. Local L3 supply corridors with GND elsewhere (2026-10-28)
+
+- Follow the user's annotated routes: localize filtered VCC/VEE from their input via arrays to the amplifier and fill the remaining L3 area with GND. Preserve every supply via connection, including C7 outside the main paths through 0.30 mm branches.
+- Remove seven GND stitching vias that otherwise disconnect the VCC corridor; retain a verified 0.80 mm bridge. All other vias remain, for 623 total. This supersedes section 16's blanket preservation of other vias only for these seven listed positions.
+- Preserve components, pads, tracks, RF arcs, mounting holes, models and schematic connectivity; preserve L1/L2/L4 copper and the broad bottom GND mask. Actual saved L3 copper areas are about VCC 77.60 mm2, VEE 74.76 mm2 and GND 2463.59 mm2, with power-to-ground clearance above 0.204 mm.
+- Check Altium save/reopen, all 47 power-via connections, continuous VCC and VEE, C7 connectivity, the narrow bridge, remaining GND fill, and independent copper DRC. Exact design and evidence are in `l3_local_power_intent.json` and `review/l3_local_power_check.json`.
+
+## 18. RF 3W shield vias (2026-10-28)
+
+- Add GND shield vias around the RF input curves, output route and RF component perimeter. Apply 3W as copper-edge clearance, W=0.3058 mm and minimum gap=0.9174 mm. This is the stated implementation assumption; a center-to-center definition would be a different design.
+- Add 98 vias (0.40 mm copper / 0.20 mm drill), reuse 29 existing qualified fence vias, and preserve every existing via. The resulting total is 721. Use 0.90 mm nominal pitch with local outward adjustments and 17 obstructed/protected sample locations omitted; do not claim a closed enclosure or uniform maximum pitch.
+- New vias must sit entirely within GND on all four layers, clear pins and holes, and preserve the L2 RF windows, L3 power corridors/bridge, broad bottom mask, component/pad placement, RF traces/arcs, schematic and 26 embedded models. Verify the actual native saved file and independent DRC.
+- Correct the stale `RunShapeRepair` entry-point error. Current commands use `ShapeRepair`; the generator supports both names. Legacy candidate projects must not apply stale edits to the current board.
+
+## 19. Circular via rings around mechanical mounting holes (2026-10-28)
+
+- Place 24 GND vias around each of H1/H2/H3/H4 at radius 3.40 mm and 15-degree intervals. Use 0.40 mm copper / 0.20 mm drills, yielding about 0.888 mm adjacent-center pitch. Add exactly 96 vias, preserving all previous 721, for 817 total.
+- Preserve the four original 3.175 mm NPTH mounting holes and their positions, the board outline, existing RF fence, all component/pad/trace/arc geometry, copper outlines/cutouts, bottom mask, schematic and 26 embedded models. Connect each added via to GND on all four copper layers without perforating power corridors.
+- The ring lies outside the existing nominal 6 mm screw-head review envelope with 0.20 mm copper clearance. Keep that nominal assumption distinct from validation of a particular screw or washer.
+- Verify complete circular placement, native save/reopen, original-hole preservation, via drilling clearances and independent DRC; record coordinates and evidence in `mount_hole_ring_intent.json` and `review/mount_hole_ring_check.json`.
+
+## 20. Board-edge GND via fence (2026-10-28)
+
+- Add a perimeter row on all four edges. Use 1.00 mm center inset, 1.00 mm nominal pitch, and 0.40 mm copper / 0.20 mm drill. New via copper remains 0.80 mm inside the board edge.
+- Add 148 vias and reuse 50 existing vias at perimeter targets. Omit 16 targets around RF connector pads to preserve pin clearances and 3W copper-edge spacing. Total vias: 965. Do not interpret nominal pitch as the maximum gap around connectors.
+- Connect new vias to GND on all four copper layers. Preserve all previous 817 vias, including mounting-hole rings and RF fencing, and all holes, component/pad placement, tracks/arcs, copper outlines/cutouts, bottom mask, schematic and 26 embedded models.
+- Validate native save/reopen, exact via placement, all-layer GND coverage, edge/pad/RF/drill clearances and independent DRC. Record coordinates in `edge_via_intent.json` and results in `review/edge_via_check.json`.
+
+## 21. Remove the isolated TP1 GND test point (2026-10-28)
+
+- Remove TP1 at (31.49601, 21.8948) mm from the board top origin. Remove its 1.4779 mm pad and 0.9779 mm plated hole, the schematic test-point component and its private GND branch/label, and its BOM entry.
+- Restore GND copper on all four layers and remove only its obsolete bottom-mask protection island. Restrict copper/mask changes to radius 1.10 mm around the former TP1 center.
+- Preserve every other component, pad, track, arc, outline, copper boundary/cutout, schematic object and all 965 vias and 26 embedded models. Current counts: 31 PCB components, 83 pads.
+- Verify native PCB/schematic save and reopen, complete native import and DRC, and exact comparison to the immediately preceding 168-check baseline. Record the new 49-check proof separately; do not relabel historical feature audits as rerun against the new file.

@@ -1,5 +1,5 @@
 ** Drc report for C:\Jeonghyun\SNU_GIT\QSTL_Amplifier\hardware\THS3491_RGT_G20\altium_revD\staging\native_roundtrip.kicad_pcb **
-** Created on 2026-10-22 17:01:34 **
+** Created on 2026-10-28 18:45:14 **
 
 ** Found 1 DRC violations **
 [track_dangling]: Track has unconnected end

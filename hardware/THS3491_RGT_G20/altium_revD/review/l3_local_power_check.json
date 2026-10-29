@@ -1,0 +1,35 @@
+{
+  "pcb_sha256": "55702a0e654c572d560edc3d926949c0e0578a76b0aae2b6b74c39845c7e9ea4",
+  "baseline_pcb_sha256": "e82b5d9c17cfc1cef7a094a72f23e9ffd0c6719637d5e5f1215182b4c88cdc70",
+  "filtered_power_corridors_continuous": true,
+  "all_supply_vias_connected": true,
+  "GND_fills_remaining_L3": true,
+  "C7_both_rails_connected": true,
+  "bottom_mask_unchanged": true,
+  "non_L3_copper_preserved": true,
+  "bridge_0p8mm_clear": true,
+  "exactly_seven_bridge_ground_vias_removed": true,
+  "remaining_vias": 965,
+  "components_pads_tracks_arcs_preserved": true,
+  "schematic_unchanged": true,
+  "L3_GND_area_mm2": 2463.5941224925555,
+  "power_areas_mm2": {
+    "VCC": {
+      "before_mm2": 924.7671723908437,
+      "after_mm2": 77.60258600252904,
+      "supply_vias_connected": 24
+    },
+    "VEE": {
+      "before_mm2": 1425.0715185378456,
+      "after_mm2": 74.76166809687044,
+      "supply_vias_connected": 23
+    }
+  },
+  "clearance_mm": {
+    "VCC_GND": 0.2046796112465143,
+    "VEE_GND": 0.2041762126618888,
+    "VCC_VEE": 0.9400590000000015
+  },
+  "C7_branch_width_mm": 0.3,
+  "native_screenshot_verified": false
+}

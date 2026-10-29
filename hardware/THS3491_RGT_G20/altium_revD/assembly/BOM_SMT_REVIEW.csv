@@ -18,4 +18,3 @@ C8,100n / 25V,0402L,GRM155R61E104KA87D,C77008,SMT,stock not rechecked in Rev C o
 L1,220R @100MHz,0805_HV,BLM21PG221SN1D,C85840,SMT,stock not rechecked in Rev C or Rev D
 L2,220R @100MHz,0805_HV,BLM21PG221SN1D,C85840,SMT,stock not rechecked in Rev C or Rev D
 R14,49.9,R_0603_1608Metric,CRCW060349R9FKEA,C844930,SMT,stock not rechecked in Rev C or Rev D
-R15,1Meg,R_0805_2012Metric,CRCW08051M00FKEA,C844825,SMT,stock not rechecked in Rev C or Rev D

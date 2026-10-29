@@ -1,0 +1,38 @@
+{
+  "pcb_sha256": "55702a0e654c572d560edc3d926949c0e0578a76b0aae2b6b74c39845c7e9ea4",
+  "baseline_pcb_sha256": "8a690c2988937aa5f1f91a92e8494dbcea0f124f63aefd08f9e02a12eb9bac13",
+  "native_polygon_outline_verified": true,
+  "pins_components_tracks_models_not_moved": true,
+  "remaining_vias_not_moved": true,
+  "subsequent_ground_vias_removed": 12,
+  "rails": {
+    "VIN_P": {
+      "ref": "J9",
+      "ground_and_switch_pads_isolated": true,
+      "clearance_mm": {
+        "2": 0.205499639001686,
+        "3": 1.0999999999999979
+      },
+      "continuous": true,
+      "pin2_GND_connected_L2_and_bottom": true,
+      "pin3_PCB_net": "NC",
+      "polygon_area_before_mm2": 46.0,
+      "polygon_area_after_mm2": 99.47
+    },
+    "VIN_N": {
+      "ref": "J10",
+      "ground_and_switch_pads_isolated": true,
+      "clearance_mm": {
+        "2": 0.205500100928854,
+        "3": 1.0999999999999979
+      },
+      "continuous": true,
+      "pin2_GND_connected_L2_and_bottom": true,
+      "pin3_PCB_net": "NC",
+      "polygon_area_before_mm2": 45.99999999999999,
+      "polygon_area_after_mm2": 143.26192000000003
+    }
+  },
+  "pin3_internal_switch": "Normally closed to pin 2 without plug; opens on insertion",
+  "schematic_unchanged": true
+}

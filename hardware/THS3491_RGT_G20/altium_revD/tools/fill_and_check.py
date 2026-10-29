@@ -17,6 +17,9 @@ g=json.loads((ROOT/'review/intended_geometry.json').read_text())
 base=json.loads((ROOT.parent/'altium_revC/review/native_geometry.json').read_text())
 b=p.LoadBoard(str(S/'baseline_import.kicad_pcb'))
 fps={f.GetReference():f for f in b.GetFootprints()}
+for ref in set(fps)-{f['ref'] for f in g['parts']}:
+    assert ref=='R15', 'Unexpected component deletion: '+ref
+    b.Remove(fps.pop(ref))
 def xy(v): return [p.ToMM(v.x),p.ToMM(v.y)]
 def vec(x,y): return p.wxPoint(p.FromMM(x),p.FromMM(y))
 offset=[xy(fps['U1'].GetPosition())[i]-[18.79601,27.94][i] for i in range(2)]

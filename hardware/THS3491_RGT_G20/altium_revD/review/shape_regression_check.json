@@ -90,5 +90,6 @@
   "after_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
   "before_evidence": "staging/pre_square_pad_repair_20261022/review/native_import_check.json",
   "after_evidence": "native_import_check.json",
-  "criterion": "All 21 target pads are rectangles with four perpendicular copper corners."
+  "criterion": "All 21 target pads are rectangles with four perpendicular copper corners.",
+  "record_scope": "Historical check before R15 removal and 3D-model addition; see validation_summary.json for the delivered file"
 }

@@ -13,7 +13,7 @@ from shapely.geometry.polygon import orient
 R=Path(__file__).resolve().parents[1]/'review'
 g=json.loads((R/'native_geometry.json').read_text())
 audit=json.loads((R/'native_import_check.json').read_text())
-assert not audit['errors'] and len(audit['rectangular_pads_verified'])==21
+assert not audit['errors'] and len(audit['rectangular_pads_verified'])==19
 shapes={(x['ref'],x['pad']):x for x in audit['rectangular_pads_verified']}
 assert all(x['radius_mm']==0 for x in shapes.values())
 fills=json.loads((R/'native_import_copper.json').read_text())
@@ -51,20 +51,20 @@ def panel(ax,limits):
     ax.set_xlabel('x (mm)',fontsize=9);ax.set_ylabel('보드 위에서 y (mm)',fontsize=9)
 
 fig=plt.figure(figsize=(14,6.1),facecolor='white')
-fig.text(.05,.94,'직각 사각형 패드 21개 / 모서리 반경 0',fontsize=21,weight='bold',color='#193145')
-fig.text(.05,.88,'Altium 25.8.1 저장 → 닫기 → 재열기: Rectangle 형상 21개 및 반경 0 검사 통과',fontsize=11,color='#456174')
+fig.text(.05,.94,'직각 사각형 패드 19개 / 모서리 반경 0',fontsize=21,weight='bold',color='#193145')
+fig.text(.05,.88,'Altium 25.8.1 저장 → 닫기 → 재열기: Rectangle 형상 19개 및 반경 0 검사 통과',fontsize=11,color='#456174')
 a=fig.add_axes([.055,.26,.63,.52]);panel(a,(20.6,32.5,26.6,30.6))
-a.set_title('R14 / R15: 직각 사각형',loc='left',fontsize=12,pad=14)
+a.set_title('R14: 직각 사각형 / R15 제거',loc='left',fontsize=12,pad=14)
 a.annotate('R14  ·  R = 0',xy=(23.025,27.94),xytext=(24.2,27.05),fontsize=10,
            arrowprops=dict(arrowstyle='-',color='#61788c'),color='#193145')
-a.annotate('R15  ·  R = 0',xy=(31,27.94),xytext=(29.5,30),fontsize=10,ha='center',
+a.annotate('R15 제거 · 출력 경로 유지',xy=(31,27.94),xytext=(29.5,30),fontsize=10,ha='center',
            arrowprops=dict(arrowstyle='-',color='#61788c'),color='#193145')
 b=fig.add_axes([.76,.24,.18,.55]);panel(b,(23.9,25.9,30.05,33.0))
 b.set_title('C7: 비아 연결 유지',fontsize=12,pad=14)
 b.text(24.9,30.2,'VCC',ha='center',fontsize=9,color='#b33226')
 b.text(24.9,32.85,'VEE 돌출 동박 제거',ha='center',fontsize=9,color='#17538a')
 fig.text(.05,.13,'네이티브 PCB를 독립 판독기로 다시 읽은 형상입니다. Altium 화면 캡처는 아닙니다.',fontsize=10,color='#526c7e')
-fig.text(.05,.08,'R14 2개 + R15 2개 + U1 17개: 크기·위치·넷 유지. 사각형 모서리를 반영하여 주변 동박 간격 재계산.',fontsize=9.5,color='#526c7e')
+fig.text(.05,.08,'R14 2개 + U1 17개: 크기·위치·넷 유지. R15 1 MΩ 출력 부하와 두 패드를 제거하고 동박 갱신.',fontsize=9.5,color='#526c7e')
 fig.savefig(R/'pad_shape_verification.png',dpi=180)
 fig.savefig(R/'pad_shape_verification.svg')
 print('Saved shape verification figures')

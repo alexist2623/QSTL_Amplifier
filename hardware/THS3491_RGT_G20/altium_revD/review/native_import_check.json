@@ -2,18 +2,18 @@
   "reader": "(6.0.10)",
   "errors": [],
   "copper_layers": 4,
-  "parts": 35,
-  "pads": 84,
-  "vias": 650,
+  "parts": 31,
+  "pads": 83,
+  "vias": 965,
   "arcs": 3,
-  "tracks": 38,
+  "tracks": 42,
   "TEMP_header_pitch_mm": 2.539999999999999,
   "copper_refilled_in_native_audit": false,
   "text_stream_excluded_from_import": false,
-  "source_sha256": "347d81c23a55bbc37a648237f4cedc54a08def253c6f1e45c121dcc3a6137ca3",
+  "source_sha256": "d9444025681b95a9d971c1db2267c07355b0a4fd37ab991d7db80124ee0545f3",
   "altium_application_DRC": false,
-  "all_pad_shapes_checked": 84,
-  "persistent_polygon_cutouts": 31,
+  "all_pad_shapes_checked": 83,
+  "persistent_polygon_cutouts": 24,
   "rectangular_pads_verified": [
     {
       "ref": "R14",
@@ -563,64 +563,6 @@
         [
           18.07101,
           28.665
-        ]
-      ]
-    },
-    {
-      "ref": "R15",
-      "pad": "1",
-      "shape": "rectangle",
-      "size_mm": [
-        1.025,
-        1.4
-      ],
-      "inactive_roundrect_ratio": 0.25,
-      "radius_mm": 0,
-      "copper_outline_mm": [
-        [
-          31.7,
-          27.4275
-        ],
-        [
-          31.7,
-          28.4525
-        ],
-        [
-          30.3,
-          28.4525
-        ],
-        [
-          30.3,
-          27.4275
-        ]
-      ]
-    },
-    {
-      "ref": "R15",
-      "pad": "2",
-      "shape": "rectangle",
-      "size_mm": [
-        1.025,
-        1.4
-      ],
-      "inactive_roundrect_ratio": 0.25,
-      "radius_mm": 0,
-      "copper_outline_mm": [
-        [
-          31.7,
-          29.2525
-        ],
-        [
-          31.7,
-          30.2775
-        ],
-        [
-          30.3,
-          30.2775
-        ],
-        [
-          30.3,
-          29.2525
         ]
       ]
     }

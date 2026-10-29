@@ -1,0 +1,393 @@
+{
+  "placements": [
+    {
+      "ref": "R8",
+      "model": "R_0603.step",
+      "x_mm": 23.1,
+      "y_altium_mm": 28.58,
+      "rotation_z": 90.0,
+      "side": "top"
+    },
+    {
+      "ref": "J1",
+      "model": "SMA_142-0701-851_seated.step",
+      "x_mm": 0.25401,
+      "y_altium_mm": 47.751999999999995,
+      "rotation_z": 180.0,
+      "side": "top"
+    },
+    {
+      "ref": "L1",
+      "model": "Ferrite_0805_H0p85.step",
+      "x_mm": 26.77161,
+      "y_altium_mm": 59.68,
+      "rotation_z": -90,
+      "side": "top"
+    },
+    {
+      "ref": "R14",
+      "model": "R_0603.step",
+      "x_mm": 22.2,
+      "y_altium_mm": 40.64,
+      "rotation_z": 0.0,
+      "side": "top"
+    },
+    {
+      "ref": "R3",
+      "model": "R_0603.step",
+      "x_mm": 14.79056,
+      "y_altium_mm": 41.43349,
+      "rotation_z": -90.0,
+      "side": "top"
+    },
+    {
+      "ref": "C1",
+      "model": "C_1206_H0p85.step",
+      "x_mm": 26.77161,
+      "y_altium_mm": 63.68,
+      "rotation_z": 90,
+      "side": "top"
+    },
+    {
+      "ref": "R2",
+      "model": "R_0603.step",
+      "x_mm": 14.09056,
+      "y_altium_mm": 43.3324,
+      "rotation_z": 0.0,
+      "side": "top"
+    },
+    {
+      "ref": "C4",
+      "model": "C_0805.step",
+      "x_mm": 10.82041,
+      "y_altium_mm": 25.26139,
+      "rotation_z": 90,
+      "side": "top"
+    },
+    {
+      "ref": "J2",
+      "model": "SMA_142-0701-851_seated.step",
+      "x_mm": 0.25401,
+      "y_altium_mm": 32.512,
+      "rotation_z": 180.0,
+      "side": "top"
+    },
+    {
+      "ref": "J3",
+      "model": "SMA_142-0701-851_seated.step",
+      "x_mm": 41.40201,
+      "y_altium_mm": 40.64,
+      "rotation_z": 0.0,
+      "side": "top"
+    },
+    {
+      "ref": "C2",
+      "model": "C_1206_H0p85.step",
+      "x_mm": 10.82041,
+      "y_altium_mm": 17.6,
+      "rotation_z": -90,
+      "side": "top"
+    },
+    {
+      "ref": "C6",
+      "model": "C_0603.step",
+      "x_mm": 19.3908,
+      "y_altium_mm": 36.896829999999994,
+      "rotation_z": -90,
+      "side": "top"
+    },
+    {
+      "ref": "R4",
+      "model": "R_0603.step",
+      "x_mm": 16.16216,
+      "y_altium_mm": 41.43349,
+      "rotation_z": 90.0,
+      "side": "top"
+    },
+    {
+      "ref": "R7",
+      "model": "R_0603.step",
+      "x_mm": 16.16216,
+      "y_altium_mm": 38.8465,
+      "rotation_z": 90.0,
+      "side": "top"
+    },
+    {
+      "ref": "C5",
+      "model": "C_0603.step",
+      "x_mm": 19.29601,
+      "y_altium_mm": 44.38317,
+      "rotation_z": 90,
+      "side": "top"
+    },
+    {
+      "ref": "C7",
+      "model": "C_0603.step",
+      "x_mm": 24.9,
+      "y_altium_mm": 37.08,
+      "rotation_z": -90.0,
+      "side": "top"
+    },
+    {
+      "ref": "J7",
+      "model": "Header_1x02_2p54.step",
+      "x_mm": 35.0,
+      "y_altium_mm": 24.58,
+      "rotation_z": 90.0,
+      "side": "top"
+    },
+    {
+      "ref": "U1",
+      "model": "THS3491_RGT_nominal.step",
+      "x_mm": 18.79601,
+      "y_altium_mm": 40.64,
+      "rotation_z": 0.0,
+      "side": "top"
+    },
+    {
+      "ref": "C3",
+      "model": "C_0805.step",
+      "x_mm": 26.77161,
+      "y_altium_mm": 56.018609999999995,
+      "rotation_z": -90,
+      "side": "top"
+    },
+    {
+      "ref": "R1",
+      "model": "R_0603.step",
+      "x_mm": 7.21361,
+      "y_altium_mm": 47.751999999999995,
+      "rotation_z": 0.0,
+      "side": "top"
+    },
+    {
+      "ref": "C8",
+      "model": "C_0402.step",
+      "x_mm": 23.1,
+      "y_altium_mm": 31.08,
+      "rotation_z": 0.0,
+      "side": "top"
+    },
+    {
+      "ref": "R6",
+      "model": "R_0603.step",
+      "x_mm": 14.79056,
+      "y_altium_mm": 38.8465,
+      "rotation_z": 90.0,
+      "side": "top"
+    },
+    {
+      "ref": "L2",
+      "model": "Ferrite_0805_H0p85.step",
+      "x_mm": 10.82041,
+      "y_altium_mm": 21.6,
+      "rotation_z": 90,
+      "side": "top"
+    },
+    {
+      "ref": "H9",
+      "model": "7109DG_simplified.step",
+      "x_mm": 18.79601,
+      "y_altium_mm": 33.506,
+      "rotation_z": 180.0,
+      "side": "bottom"
+    },
+    {
+      "ref": "J9",
+      "model": "PJ-102AH_nominal.step",
+      "x_mm": 16.5,
+      "y_altium_mm": 54.879999999999995,
+      "rotation_z": 180.0,
+      "side": "top"
+    },
+    {
+      "ref": "J10",
+      "model": "PJ-102AH_nominal.step",
+      "x_mm": 21.0,
+      "y_altium_mm": 13.699999999999996,
+      "rotation_z": 0.0,
+      "side": "top"
+    }
+  ],
+  "excluded": [
+    {
+      "ref": "R5",
+      "reason": "DNP: not fitted"
+    },
+    {
+      "ref": "H3",
+      "reason": "Mounting hole; no fitted hardware"
+    },
+    {
+      "ref": "H4",
+      "reason": "Mounting hole; no fitted hardware"
+    },
+    {
+      "ref": "H2",
+      "reason": "Mounting hole; no fitted hardware"
+    },
+    {
+      "ref": "H1",
+      "reason": "Mounting hole; no fitted hardware"
+    }
+  ],
+  "assets": [
+    {
+      "file": "7109DG_simplified.step",
+      "sha256": "1607e4b2ef72838af785c8c7724539364517ed151754d95f24cc1d0b0cc08da0",
+      "bounds_mm": [
+        -12.7,
+        -16.824,
+        0.0,
+        12.7,
+        2.556000000000001,
+        11.43
+      ],
+      "solids": 26,
+      "source": "See models3d/README.md"
+    },
+    {
+      "file": "C_0402.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "bounds_mm": [
+        -0.5,
+        -0.25,
+        0.0,
+        0.5,
+        0.25,
+        0.5
+      ],
+      "solids": 1,
+      "source": "Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+    },
+    {
+      "file": "C_0603.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        0.0,
+        0.8,
+        0.4,
+        0.8
+      ],
+      "solids": 1,
+      "source": "Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+    },
+    {
+      "file": "C_0805.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "bounds_mm": [
+        -1.0,
+        -0.625,
+        0.0,
+        1.0,
+        0.625,
+        1.25
+      ],
+      "solids": 1,
+      "source": "Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    },
+    {
+      "file": "C_1206_H0p85.step",
+      "sha256": "b6ccf955cca7c2c39ad9b110ec90ce73bccbdf25daa4009aee30c4ed86f8e2b7",
+      "bounds_mm": [
+        -1.6,
+        -0.8,
+        0.0,
+        1.6,
+        0.8,
+        0.85
+      ],
+      "solids": 3,
+      "source": "See models3d/README.md"
+    },
+    {
+      "file": "Ferrite_0805_H0p85.step",
+      "sha256": "0c3eab17e9c03588a6a2937d6a78c01b38ecf5da593c8258eeb157e11c592c7c",
+      "bounds_mm": [
+        -1.0,
+        -0.625,
+        0.0,
+        1.0,
+        0.625,
+        0.85
+      ],
+      "solids": 3,
+      "source": "See models3d/README.md"
+    },
+    {
+      "file": "Header_1x02_2p54.step",
+      "sha256": "ea4d0799007ebdd3945072bf255d673d2fe87eb05fda85fd8d7993ad9397da41",
+      "bounds_mm": [
+        -1.27,
+        -3.81,
+        -3.00000000000022,
+        1.27,
+        1.27,
+        8.54000000000022
+      ],
+      "solids": 1,
+      "source": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+    },
+    {
+      "file": "R_0603.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        -2.775557561563e-17,
+        0.8,
+        0.4,
+        0.45
+      ],
+      "solids": 1,
+      "source": "Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    },
+    {
+      "file": "SMA_142-0701-851_seated.step",
+      "sha256": "944754def91547906d0a004288cc6dfa9e178a219190b20bcbb254dd1954b964",
+      "bounds_mm": [
+        -4.74980000001,
+        -4.76250000001,
+        -3.83540000001,
+        9.52500000001,
+        4.76250000001,
+        4.08940000001
+      ],
+      "solids": 1,
+      "source": "See models3d/README.md"
+    },
+    {
+      "file": "THS3491_RGT_nominal.step",
+      "sha256": "f98389cbc26d8a67046ebdd144b67185326a4ed879440ff096f68f5b658f6314",
+      "bounds_mm": [
+        -1.5,
+        -1.5,
+        0.0,
+        1.5,
+        1.5,
+        1.006
+      ],
+      "solids": 19,
+      "source": "See models3d/README.md"
+    },
+    {
+      "file": "PJ-102AH_nominal.step",
+      "sha256": "7991c39747d8e56ac3917993b9a46be11bb431812d8b2aa5e095a18cfc5f47f1",
+      "bounds_mm": [
+        -4.5,
+        -13.700000000000001,
+        -3.5,
+        4.8,
+        0.7,
+        11.0
+      ],
+      "solids": 5,
+      "source": "Nominal drawing-based model; power_connectors_intent.json sources"
+    }
+  ],
+  "removed_components": [
+    "R15"
+  ]
+}

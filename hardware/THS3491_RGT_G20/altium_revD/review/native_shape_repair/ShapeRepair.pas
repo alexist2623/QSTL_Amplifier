@@ -23,8 +23,6 @@ Begin
     If (Ref = 'U1') And (Pad.Name = '15') Then Pct := 0;
     If (Ref = 'U1') And (Pad.Name = '16') Then Pct := 0;
     If (Ref = 'U1') And (Pad.Name = '17') Then Pct := 0;
-    If (Ref = 'R15') And (Pad.Name = '1') Then Pct := 0;
-    If (Ref = 'R15') And (Pad.Name = '2') Then Pct := 0;
     Result := Pct;
 End;
 
@@ -35,7 +33,7 @@ Var
     Iterator : IPCB_BoardIterator;
     Pad : IPCB_Pad2;
     Pct, Count, Failures, I, Total, TopPads, BottomPads, MultiPads, OtherPads : Integer;
-    Obj : IPCB_Primitive;
+    Obj : IPCB_Primitive; Txt : IPCB_Text; Body : IPCB_ComponentBody; KillList : TInterfaceList;
     PadList : TInterfaceList;
     Report : TStringList;
     FileName, LogFile, Ref : String;
@@ -43,7 +41,7 @@ Begin
     FileName := 'C:\Jeonghyun\SNU_GIT\QSTL_Amplifier\hardware\THS3491_RGT_G20\altium_revD\QSTL_THS3491_RGT_G20_RevD.PcbDoc';
     LogFile := 'C:\Jeonghyun\SNU_GIT\QSTL_Amplifier\hardware\THS3491_RGT_G20\altium_revD\review\altium_native_check.txt';
     Report := TStringList.Create;
-    Report.Add('START'); Report.SaveToFile(LogFile);
+    Report.Add('START'); Report.Add('PCB='+FileName); Report.SaveToFile(LogFile);
     Doc := Client.OpenDocument('PCB', FileName);
     If Doc = Nil Then Exit;
     Report.Add('Document opened'); Report.SaveToFile(LogFile);
@@ -57,6 +55,23 @@ Begin
     Board := PCBServer.GetPCBBoardByPath(FileName);
     If Board = Nil Then Exit;
     Report.Add('Board available'); Report.SaveToFile(LogFile);
+    KillList:=TInterfaceList.Create;
+    Iterator:=Board.BoardIterator_Create;
+    Iterator.AddFilter_ObjectSet(MkSet(eTextObject));Iterator.AddFilter_LayerSet(MkSet(eTopOverlay));Iterator.AddFilter_Method(eProcessAll);
+    Txt:=Iterator.FirstPCBObject;
+    While Txt<>Nil Do Begin
+      If (Txt.Text='TI RF geometry / JLC 4L adaptation') Or (Txt.Text='QSTL / THS3491 RGT / REV D') Then KillList.Add(Txt);
+      Txt:=Iterator.NextPCBObject;
+    End;Board.BoardIterator_Destroy(Iterator);
+    PCBServer.PreProcess;
+    Try
+      For I:=0 To KillList.Count-1 Do Begin
+        Obj:=KillList.Items[I];Board.RemovePCBObject(Obj);
+        PCBServer.SendMessageToRobots(Board.I_ObjectAddress,c_Broadcast,PCBM_BoardRegisteration,Obj.I_ObjectAddress);
+      End;
+    Finally PCBServer.PostProcess;End;
+    Report.Add('Review silk removed='+IntToStr(KillList.Count));Report.SaveToFile(LogFile);KillList.Free;
+
     Count := 0;
     PadList := TInterfaceList.Create;
     Iterator := Board.BoardIterator_Create;
@@ -153,8 +168,24 @@ Begin
     While Obj <> Nil Do Begin Inc(Total); Obj := Iterator.NextPCBObject; End;
     Board.BoardIterator_Destroy(Iterator);
     Report.Add('Vias=' + IntToStr(Total));
+
+    Count:=0;Iterator:=Board.BoardIterator_Create;
+    Iterator.AddFilter_ObjectSet(MkSet(eComponentBodyObject));Iterator.AddFilter_LayerSet(AllLayers);Iterator.AddFilter_Method(eProcessAll);
+    Body:=Iterator.FirstPCBObject;
+    While Body<>Nil Do Begin
+      If Body.Component=Nil Then Begin Report.Add('ERROR unbound body');Report.SaveToFile(LogFile);Exit;End;
+      If Body.Model=Nil Then Begin Report.Add('ERROR missing model');Report.SaveToFile(LogFile);Exit;End;
+      Inc(Count);Report.Add('BODY,'+Body.Component.Name.Text+',side='+IntToStr(Body.BodyProjection)+',layer='+IntToStr(Body.Layer));
+      Body:=Iterator.NextPCBObject;
+    End;Board.BoardIterator_Destroy(Iterator);
+    Report.Add('COUNT='+IntToStr(Count));
     Board.ViewManager_FullUpdate;
     Client.SendMessage('PCB:Zoom','Action=All',255,Client.CurrentView);
     Report.SaveToFile(LogFile);
     Report.Free;
+End;
+
+Procedure RunShapeRepair;
+Begin
+    ShapeRepair;
 End;

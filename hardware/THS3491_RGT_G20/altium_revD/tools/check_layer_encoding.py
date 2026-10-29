@@ -39,8 +39,8 @@ def check(path):
             if modern!=LAYER_V7.get(raw[0]):
                 errors.append(dict(kind='arc',index=index,legacy=raw[0],modern=hex(modern)))
         version_bytes=len(ole.openstream('FileVersionInfo/Data').read())
-    if pad_layers!={1:66,32:7,74:11}: errors.append(dict(kind='pad_layer_counts',actual=dict(pad_layers)))
-    if track_layers!={1:38,57:4}: errors.append(dict(kind='track_layer_counts',actual=dict(track_layers)))
+    # Primitive counts are checked against the current design by audit_native
+    # and record_native_verification; connector additions change those counts.
     return dict(errors=errors,pad_layers=dict(pad_layers),track_layers=dict(track_layers),
                 version_info_bytes=version_bytes)
 

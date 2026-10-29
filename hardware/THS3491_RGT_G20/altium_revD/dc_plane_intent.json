@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-28",
+  "zone": "L1_POSITIVE_INPUT",
+  "net": "VIN_P",
+  "layer": "F.Cu",
+  "old_outline_mm": [
+    [
+      16.7,
+      4.9
+    ],
+    [
+      28.2,
+      4.9
+    ],
+    [
+      28.2,
+      8.9
+    ],
+    [
+      16.7,
+      8.9
+    ]
+  ],
+  "outline_mm": [
+    [
+      14.2,
+      4.9
+    ],
+    [
+      28.2,
+      4.9
+    ],
+    [
+      28.2,
+      8.9
+    ],
+    [
+      21.1,
+      8.9
+    ],
+    [
+      21.1,
+      15.2
+    ],
+    [
+      14.2,
+      15.2
+    ]
+  ],
+  "request": "User requested both positive and negative raw supply copper planes expanded around their fixed DC jack pads.",
+  "pinout": {
+    "J9.1": "VIN_P center",
+    "J9.2": "GND sleeve",
+    "J9.3": "NC sleeve switch",
+    "J10.1": "VIN_N center",
+    "J10.2": "GND sleeve",
+    "J10.3": "NC sleeve switch"
+  },
+  "switch_operation": "3 connects to 2 with no plug; opens on plug insertion. PCB pin 3 remains unconnected.",
+  "datasheet": "https://www.sameskydevices.com/product/resource/pj-102ah.pdf",
+  "unchanged": [
+    "connector pins and holes",
+    "all components and 3D models",
+    "all tracks and vias",
+    "filtered supply islands",
+    "L2 RF-pad windows",
+    "schematic",
+    "BOM"
+  ],
+  "baseline_pcb_sha256": "8a690c2988937aa5f1f91a92e8494dbcea0f124f63aefd08f9e02a12eb9bac13",
+  "planes": [
+    {
+      "zone": "L1_POSITIVE_INPUT",
+      "net": "VIN_P",
+      "layer": "F.Cu",
+      "old_outline_mm": [
+        [
+          16.7,
+          4.9
+        ],
+        [
+          28.2,
+          4.9
+        ],
+        [
+          28.2,
+          8.9
+        ],
+        [
+          16.7,
+          8.9
+        ]
+      ],
+      "outline_mm": [
+        [
+          14.2,
+          4.9
+        ],
+        [
+          28.2,
+          4.9
+        ],
+        [
+          28.2,
+          8.9
+        ],
+        [
+          21.1,
+          8.9
+        ],
+        [
+          21.1,
+          15.2
+        ],
+        [
+          14.2,
+          15.2
+        ]
+      ],
+      "ref": "J9"
+    },
+    {
+      "zone": "L1_NEGATIVE_INPUT",
+      "net": "VIN_N",
+      "layer": "F.Cu",
+      "ref": "J10",
+      "old_outline_mm": [
+        [
+          9.39202,
+          46.98
+        ],
+        [
+          20.89202,
+          46.98
+        ],
+        [
+          20.89202,
+          50.98
+        ],
+        [
+          9.39202,
+          50.98
+        ]
+      ],
+      "outline_mm": [
+        [
+          9.39202,
+          46.98
+        ],
+        [
+          23.3,
+          46.98
+        ],
+        [
+          23.3,
+          63.68
+        ],
+        [
+          16.4,
+          63.68
+        ],
+        [
+          16.4,
+          50.98
+        ],
+        [
+          9.39202,
+          50.98
+        ]
+      ]
+    }
+  ],
+  "negative_extension_baseline_sha256": "f84fdb471b1298b2f649d4a6aa5bd83ab88cf1488e69cf5563d1b164456b36e4"
+}

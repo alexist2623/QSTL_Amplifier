@@ -1,0 +1,21 @@
+{
+  "pcb_sha256": "55702a0e654c572d560edc3d926949c0e0578a76b0aae2b6b74c39845c7e9ea4",
+  "baseline_pcb_sha256": "9646e631d39591e73562c37806249cc7d36923cd8681840803d5c22c46728cb6",
+  "RF_3W_edge_gap_verified": true,
+  "minimum_edge_gap_mm": 0.9180814640828985,
+  "reference_width_mm": 0.3058,
+  "new_vias_GND_on_all_four_layers": true,
+  "existing_vias_preserved": true,
+  "RF_routes_components_and_mask_preserved": true,
+  "power_corridors_not_pierced": true,
+  "new_via_drill_spacing_verified": true,
+  "minimum_new_via_drill_gap_mm": 0.2615004040225748,
+  "added_vias": 98,
+  "reused_vias": 29,
+  "total_vias": 965,
+  "nominal_pitch_mm": 0.9,
+  "blocked_target_count": 17,
+  "blocked_target_reason": "Pin/component clearance, existing-via drill spacing, or protected plane geometry. Not a closed RF shielding enclosure.",
+  "native_screenshot_verified": false,
+  "EM_simulation_performed": false
+}

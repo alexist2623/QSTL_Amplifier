@@ -1,8 +1,10 @@
 START
+PCB=C:\Jeonghyun\SNU_GIT\QSTL_Amplifier\hardware\THS3491_RGT_G20\altium_revD\QSTL_THS3491_RGT_G20_RevD.PcbDoc
 Document opened
 NORMALIZED
 Board available
-COLLECTED=21
+Review silk removed=0
+COLLECTED=19
 EDIT=R14.1
 SHAPE SET
 RADIUS SET
@@ -60,13 +62,7 @@ RADIUS SET
 EDIT=U1.17
 SHAPE SET
 RADIUS SET
-EDIT=R15.1
-SHAPE SET
-RADIUS SET
-EDIT=R15.2
-SHAPE SET
-RADIUS SET
-Changed=21
+Changed=19
 SAVED
 Native save succeeded
 Closed saved document
@@ -91,14 +87,39 @@ PAD,U1,14,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
 PAD,U1,15,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
 PAD,U1,16,shape=2,radius_pct=50,xsize=94488,ysize=236220,radius=0
 PAD,U1,17,shape=2,radius_pct=50,xsize=570866,ysize=570866,radius=0
-PAD,R15,1,shape=2,radius_pct=50,xsize=403543,ysize=551181,radius=0
-PAD,R15,2,shape=2,radius_pct=50,xsize=403543,ysize=551181,radius=0
-Verified=21
+Verified=19
 Failures=0
-Pads=84
-TopPads=66
+Pads=83
+TopPads=64
 BottomPads=7
-MultiPads=11
+MultiPads=12
 OtherPads=0
-Tracks=42
-Vias=650
+Tracks=54
+Vias=965
+BODY,J10,side=0,layer=69
+BODY,J9,side=0,layer=69
+BODY,L2,side=0,layer=69
+BODY,R6,side=0,layer=69
+BODY,C8,side=0,layer=69
+BODY,R1,side=0,layer=69
+BODY,C3,side=0,layer=69
+BODY,U1,side=0,layer=69
+BODY,J7,side=0,layer=69
+BODY,C7,side=0,layer=69
+BODY,C5,side=0,layer=69
+BODY,R7,side=0,layer=69
+BODY,R4,side=0,layer=69
+BODY,C6,side=0,layer=69
+BODY,C2,side=0,layer=69
+BODY,J3,side=0,layer=69
+BODY,J2,side=0,layer=69
+BODY,C4,side=0,layer=69
+BODY,R2,side=0,layer=69
+BODY,C1,side=0,layer=69
+BODY,R3,side=0,layer=69
+BODY,R14,side=0,layer=69
+BODY,L1,side=0,layer=69
+BODY,J1,side=0,layer=69
+BODY,R8,side=0,layer=69
+BODY,H9,side=1,layer=70
+COUNT=26

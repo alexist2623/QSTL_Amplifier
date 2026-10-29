@@ -1,0 +1,1 @@
+Verification baseline immediately before TP1 removal. These are historical comparison files, not the current design. Open the RevD PCB and schematic in the parent altium_revD folder. The current audit uses this preserved baseline to check that only TP1 and its local copper/mask changed.

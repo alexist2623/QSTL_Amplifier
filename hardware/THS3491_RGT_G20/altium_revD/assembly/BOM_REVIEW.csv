@@ -21,16 +21,12 @@ L2,220R @100MHz,0805_HV,BLM21PG221SN1D,C85840,SMT,stock not rechecked in Rev C o
 J1,SMA IN-,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
 J2,SMA IN+,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
 J3,SMA OUT,Emerson_142-0701-851,142-0701-851,,MANUAL,stock not rechecked in Rev C or Rev D
-TP1,GND,CC_TP105-01-09,PCB_TEST_PAD,,MANUAL,stock not rechecked in Rev C or Rev D
 R14,49.9,R_0603_1608Metric,CRCW060349R9FKEA,C844930,SMT,stock not rechecked in Rev C or Rev D
-R15,1Meg,R_0805_2012Metric,CRCW08051M00FKEA,C844825,SMT,stock not rechecked in Rev C or Rev D
-J4,VIN_P,WIRE_PAD,WIRE_SOLDER_PADS,,MANUAL,stock not rechecked in Rev C or Rev D
-J5,GND,WIRE_PAD,GND,,MANUAL,stock not rechecked in Rev C or Rev D
-J6,VIN_N,WIRE_PAD,VIN_N,,MANUAL,stock not rechecked in Rev C or Rev D
-J8,GND,WIRE_PAD,GND,,MANUAL,stock not rechecked in Rev C or Rev D
 J7,TEMP / GND,PinHeader_1x02_P2.54mm_Vertical,GENERIC_1x02_2.54mm,,MANUAL,TEMP=1 / GND=2; 2.54mm; no shorting cap
 H9,7109DG,Aavid_7109DG,7109DG,C2844701,MANUAL,stock not rechecked in Rev C or Rev D
 H1,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
 H2,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
 H3,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
 H4,PMSSS 440 0025 PH,B_F_PMSSS4400025PH,PMSSS 440 0025 PH,,DNP,hole / no fitted hardware
+J9,+15V DC,SameSky_PJ-102AH,PJ-102AH,,MANUAL THT,Same Sky; 24VDC 5A; 5.5/2.1mm plug; center +15V / sleeve GND; switched pin NC; procure exact MPN; JLC stocked supply not verified
+J10,-15V DC,SameSky_PJ-102AH,PJ-102AH,,MANUAL THT,Same Sky; 24VDC 5A; 5.5/2.1mm plug; center -15V / sleeve GND; switched pin NC; procure exact MPN; JLC stocked supply not verified
