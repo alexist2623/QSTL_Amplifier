@@ -10,7 +10,7 @@
   "TEMP_header_pitch_mm": 2.539999999999999,
   "copper_refilled_in_native_audit": false,
   "text_stream_excluded_from_import": false,
-  "source_sha256": "fc90baaf6cb2016140540eb4eefc05d0a1c9063d53e850eac25f242892498f74",
+  "source_sha256": "f42e9fc196f762811c65d540cfcf4fecd104772ec56c5b9100de48ed377f3fea",
   "altium_application_DRC": false,
   "all_pad_shapes_checked": 83,
   "persistent_polygon_cutouts": 11,

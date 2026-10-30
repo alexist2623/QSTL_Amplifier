@@ -12,3 +12,5 @@
 /hardware/THS3491_RGT_G20/altium_revD/review/native_import_check.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /hardware/THS3491_RGT_G20/altium_revD/review/l3_cleanup_baseline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /hardware/THS3491_RGT_G20/altium_revD/review/rf_resistor_windows_baseline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/hardware/THS3491_RGT_G20/altium_revD/review/mount_mask_baseline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/hardware/THS3491_RGT_G20/altium_revD/review/bottom_mask_cleanup_baseline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

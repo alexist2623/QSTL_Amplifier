@@ -1,0 +1,34 @@
+{
+  "pcb_sha256": "f42e9fc196f762811c65d540cfcf4fecd104772ec56c5b9100de48ed377f3fea",
+  "reader": "(6.0.10)",
+  "holes": [
+    {
+      "ref": "H1",
+      "mask_expansion_mm": 2.2125,
+      "opening_diameter_mm": 7.6,
+      "top_mask": true,
+      "bottom_mask": true
+    },
+    {
+      "ref": "H4",
+      "mask_expansion_mm": 2.2125,
+      "opening_diameter_mm": 7.6,
+      "top_mask": true,
+      "bottom_mask": true
+    },
+    {
+      "ref": "H3",
+      "mask_expansion_mm": 2.2125,
+      "opening_diameter_mm": 7.6,
+      "top_mask": true,
+      "bottom_mask": true
+    },
+    {
+      "ref": "H2",
+      "mask_expansion_mm": 2.2125,
+      "opening_diameter_mm": 7.6,
+      "top_mask": true,
+      "bottom_mask": true
+    }
+  ]
+}

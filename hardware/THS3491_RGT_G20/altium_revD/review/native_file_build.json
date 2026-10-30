@@ -161,7 +161,7 @@
   "added_L2_RF_pad_cutouts": 19,
   "finalization": {
     "saved_by": "Altium Designer 25.8.1",
-    "delivered_sha256": "fc90baaf6cb2016140540eb4eefc05d0a1c9063d53e850eac25f242892498f74",
+    "delivered_sha256": "f42e9fc196f762811c65d540cfcf4fecd104772ec56c5b9100de48ed377f3fea",
     "evidence": "altium_application_check.json"
   }
 }

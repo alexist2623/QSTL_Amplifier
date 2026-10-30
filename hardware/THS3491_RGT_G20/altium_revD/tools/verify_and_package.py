@@ -18,6 +18,16 @@ from check_layer_encoding import check as check_layer_encoding
 ROOT=Path(__file__).resolve().parents[1]
 R=ROOT/'review'; C=ROOT.parent/'altium_revC'
 
+if (ROOT/'bottom_mask_cleanup_intent.json').exists():
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/audit_bottom_mask_cleanup.py'),'--package'],check=True)
+    raise SystemExit(0)
+
+if (ROOT/'mount_mask_intent.json').exists():
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/audit_mount_mask.py'),'--package'],check=True)
+    raise SystemExit(0)
+
 if (ROOT/'rf_resistor_windows_intent.json').exists():
     import subprocess,sys
     subprocess.run([sys.executable,str(ROOT/'tools/audit_rf_resistor_windows.py'),'--package'],check=True)

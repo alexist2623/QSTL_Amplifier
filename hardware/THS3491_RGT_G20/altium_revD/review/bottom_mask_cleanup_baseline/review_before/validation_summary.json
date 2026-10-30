@@ -1,0 +1,742 @@
+{
+  "release_status": "REVIEW ONLY",
+  "checks": {
+    "baseline_matches_previous_verified_PCB": true,
+    "schematic_bytes_unchanged": true,
+    "native_import_matches_saved_PCB": true,
+    "independent_mask_import_matches_saved_PCB": true,
+    "board_width_geometry_unchanged": true,
+    "board_height_geometry_unchanged": true,
+    "parts_geometry_unchanged": true,
+    "pads_geometry_unchanged": true,
+    "tracks_geometry_unchanged": true,
+    "arcs_geometry_unchanged": true,
+    "vias_geometry_unchanged": true,
+    "zones_geometry_unchanged": true,
+    "draw_geometry_unchanged": true,
+    "persistent_RF_cutouts_unchanged": true,
+    "copper_layer_net_sets_unchanged": true,
+    "B.Cu_GND_copper_unchanged": true,
+    "F.Cu_GND_copper_unchanged": true,
+    "F.Cu_VCC_copper_unchanged": true,
+    "F.Cu_VEE_copper_unchanged": true,
+    "F.Cu_VIN_N_copper_unchanged": true,
+    "F.Cu_VIN_P_copper_unchanged": true,
+    "In1.Cu_GND_copper_unchanged": true,
+    "In2.Cu_GND_copper_unchanged": true,
+    "In2.Cu_VCC_copper_unchanged": true,
+    "In2.Cu_VEE_copper_unchanged": true,
+    "all_other_native_routing_and_region_records_unchanged": true,
+    "native_pad_set_unchanged": true,
+    "R8_0131_pad_properties_preserved": true,
+    "R8_0132_pad_properties_preserved": true,
+    "J1_0131_pad_properties_preserved": true,
+    "J1_0132_pad_properties_preserved": true,
+    "J1_0133_pad_properties_preserved": true,
+    "R5_0131_pad_properties_preserved": true,
+    "R5_0132_pad_properties_preserved": true,
+    "L1_0131_pad_properties_preserved": true,
+    "L1_0132_pad_properties_preserved": true,
+    "R14_0131_pad_properties_preserved": true,
+    "R14_0132_pad_properties_preserved": true,
+    "R3_0131_pad_properties_preserved": true,
+    "R3_0132_pad_properties_preserved": true,
+    "C1_0131_pad_properties_preserved": true,
+    "C1_0132_pad_properties_preserved": true,
+    "R2_0131_pad_properties_preserved": true,
+    "R2_0132_pad_properties_preserved": true,
+    "C4_0131_pad_properties_preserved": true,
+    "C4_0132_pad_properties_preserved": true,
+    "J2_0131_pad_properties_preserved": true,
+    "J2_0132_pad_properties_preserved": true,
+    "J2_0133_pad_properties_preserved": true,
+    "J3_0131_pad_properties_preserved": true,
+    "J3_0132_pad_properties_preserved": true,
+    "J3_0133_pad_properties_preserved": true,
+    "C2_0131_pad_properties_preserved": true,
+    "C2_0132_pad_properties_preserved": true,
+    "C6_0131_pad_properties_preserved": true,
+    "C6_0132_pad_properties_preserved": true,
+    "R4_0131_pad_properties_preserved": true,
+    "R4_0132_pad_properties_preserved": true,
+    "R7_0131_pad_properties_preserved": true,
+    "R7_0132_pad_properties_preserved": true,
+    "C5_0131_pad_properties_preserved": true,
+    "C5_0132_pad_properties_preserved": true,
+    "C7_0131_pad_properties_preserved": true,
+    "C7_0132_pad_properties_preserved": true,
+    "U1_0131_pad_properties_preserved": true,
+    "U1_0132_pad_properties_preserved": true,
+    "U1_0133_pad_properties_preserved": true,
+    "U1_0134_pad_properties_preserved": true,
+    "U1_0135_pad_properties_preserved": true,
+    "U1_0136_pad_properties_preserved": true,
+    "U1_0137_pad_properties_preserved": true,
+    "U1_0138_pad_properties_preserved": true,
+    "U1_0139_pad_properties_preserved": true,
+    "U1_023130_pad_properties_preserved": true,
+    "U1_023131_pad_properties_preserved": true,
+    "U1_023132_pad_properties_preserved": true,
+    "U1_023133_pad_properties_preserved": true,
+    "U1_023134_pad_properties_preserved": true,
+    "U1_023135_pad_properties_preserved": true,
+    "U1_023136_pad_properties_preserved": true,
+    "U1_023137_pad_properties_preserved": true,
+    "C3_0131_pad_properties_preserved": true,
+    "C3_0132_pad_properties_preserved": true,
+    "R1_0131_pad_properties_preserved": true,
+    "R1_0132_pad_properties_preserved": true,
+    "C8_0131_pad_properties_preserved": true,
+    "C8_0132_pad_properties_preserved": true,
+    "R6_0131_pad_properties_preserved": true,
+    "R6_0132_pad_properties_preserved": true,
+    "L2_0131_pad_properties_preserved": true,
+    "L2_0132_pad_properties_preserved": true,
+    "J1_0134_pad_properties_preserved": true,
+    "J1_0135_pad_properties_preserved": true,
+    "J2_0134_pad_properties_preserved": true,
+    "J2_0135_pad_properties_preserved": true,
+    "J3_0134_pad_properties_preserved": true,
+    "J3_0135_pad_properties_preserved": true,
+    "H9_0131_pad_properties_preserved": true,
+    "H3_manual_six_mm_mask_expansion": true,
+    "H3_00_pad_properties_preserved": true,
+    "H4_manual_six_mm_mask_expansion": true,
+    "H4_00_pad_properties_preserved": true,
+    "H2_manual_six_mm_mask_expansion": true,
+    "H2_00_pad_properties_preserved": true,
+    "J7_0131_pad_properties_preserved": true,
+    "J7_0132_pad_properties_preserved": true,
+    "H1_manual_six_mm_mask_expansion": true,
+    "H1_00_pad_properties_preserved": true,
+    "J9_0131_pad_properties_preserved": true,
+    "J9_0132_pad_properties_preserved": true,
+    "J9_0133_pad_properties_preserved": true,
+    "J10_0131_pad_properties_preserved": true,
+    "J10_0132_pad_properties_preserved": true,
+    "J10_0133_pad_properties_preserved": true,
+    "only_four_mounting_pad_expansions_changed": true,
+    "H3_NPTH_drill_and_center_preserved": true,
+    "H3_both_outer_mask_openings_verified": true,
+    "H3_F.Cu_continuous_exposed_GND_annulus": true,
+    "H3_F.Cu_no_foreign_copper_exposed": true,
+    "H3_B.Cu_continuous_exposed_GND_annulus": true,
+    "H3_B.Cu_no_foreign_copper_exposed": true,
+    "H4_NPTH_drill_and_center_preserved": true,
+    "H4_both_outer_mask_openings_verified": true,
+    "H4_F.Cu_continuous_exposed_GND_annulus": true,
+    "H4_F.Cu_no_foreign_copper_exposed": true,
+    "H4_B.Cu_continuous_exposed_GND_annulus": true,
+    "H4_B.Cu_no_foreign_copper_exposed": true,
+    "H2_NPTH_drill_and_center_preserved": true,
+    "H2_both_outer_mask_openings_verified": true,
+    "H2_F.Cu_continuous_exposed_GND_annulus": true,
+    "H2_F.Cu_no_foreign_copper_exposed": true,
+    "H2_B.Cu_continuous_exposed_GND_annulus": true,
+    "H2_B.Cu_no_foreign_copper_exposed": true,
+    "H1_NPTH_drill_and_center_preserved": true,
+    "H1_both_outer_mask_openings_verified": true,
+    "H1_F.Cu_continuous_exposed_GND_annulus": true,
+    "H1_F.Cu_no_foreign_copper_exposed": true,
+    "H1_B.Cu_continuous_exposed_GND_annulus": true,
+    "H1_B.Cu_no_foreign_copper_exposed": true,
+    "native_DRC_no_errors_or_unconnected": true,
+    "only_inherited_RG_DRIVE_arc_warning": true,
+    "main_PCB_native_saved_and_reopened": true,
+    "26_embedded_models_preserved": true
+  },
+  "drc": {
+    "native_copper": {
+      "errors": 0,
+      "warnings": 1,
+      "unconnected": 0
+    }
+  },
+  "native_import": {
+    "reader": "(6.0.10)",
+    "errors": [],
+    "copper_layers": 4,
+    "parts": 31,
+    "pads": 83,
+    "vias": 839,
+    "arcs": 3,
+    "tracks": 42,
+    "TEMP_header_pitch_mm": 2.539999999999999,
+    "copper_refilled_in_native_audit": false,
+    "text_stream_excluded_from_import": false,
+    "source_sha256": "608fd5d5022241e2385af0b9c3386a6ca39fe3a9306f923a094030519085c87a",
+    "altium_application_DRC": false,
+    "all_pad_shapes_checked": 83,
+    "persistent_polygon_cutouts": 11,
+    "rectangular_pads_verified": [
+      {
+        "ref": "R14",
+        "pad": "1",
+        "shape": "rectangle",
+        "size_mm": [
+          0.8,
+          0.95
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            20.975,
+            27.465
+          ],
+          [
+            21.775,
+            27.465
+          ],
+          [
+            21.775,
+            28.415
+          ],
+          [
+            20.975,
+            28.415
+          ]
+        ]
+      },
+      {
+        "ref": "R14",
+        "pad": "2",
+        "shape": "rectangle",
+        "size_mm": [
+          0.8,
+          0.95
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            22.625,
+            27.465
+          ],
+          [
+            23.425,
+            27.465
+          ],
+          [
+            23.425,
+            28.415
+          ],
+          [
+            22.625,
+            28.415
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "1",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            17.09601,
+            27.31
+          ],
+          [
+            17.09601,
+            27.07
+          ],
+          [
+            17.69601,
+            27.07
+          ],
+          [
+            17.69601,
+            27.31
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "2",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            17.09601,
+            27.81
+          ],
+          [
+            17.09601,
+            27.57
+          ],
+          [
+            17.69601,
+            27.57
+          ],
+          [
+            17.69601,
+            27.81
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "3",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            17.09601,
+            28.31
+          ],
+          [
+            17.09601,
+            28.07
+          ],
+          [
+            17.69601,
+            28.07
+          ],
+          [
+            17.69601,
+            28.31
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "4",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            17.09601,
+            28.81
+          ],
+          [
+            17.09601,
+            28.57
+          ],
+          [
+            17.69601,
+            28.57
+          ],
+          [
+            17.69601,
+            28.81
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "5",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            17.926009,
+            29.04
+          ],
+          [
+            18.166009,
+            29.04
+          ],
+          [
+            18.166009,
+            29.64
+          ],
+          [
+            17.926009,
+            29.64
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "6",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            18.426011,
+            29.04
+          ],
+          [
+            18.666011,
+            29.04
+          ],
+          [
+            18.666011,
+            29.64
+          ],
+          [
+            18.426011,
+            29.64
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "7",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            18.92601,
+            29.04
+          ],
+          [
+            19.16601,
+            29.04
+          ],
+          [
+            19.16601,
+            29.64
+          ],
+          [
+            18.92601,
+            29.64
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "8",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            19.426011,
+            29.04
+          ],
+          [
+            19.666011,
+            29.04
+          ],
+          [
+            19.666011,
+            29.64
+          ],
+          [
+            19.426011,
+            29.64
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "9",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            19.89601,
+            28.81
+          ],
+          [
+            19.89601,
+            28.57
+          ],
+          [
+            20.49601,
+            28.57
+          ],
+          [
+            20.49601,
+            28.81
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "10",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            19.89601,
+            28.31
+          ],
+          [
+            19.89601,
+            28.07
+          ],
+          [
+            20.49601,
+            28.07
+          ],
+          [
+            20.49601,
+            28.31
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "11",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            19.89601,
+            27.81
+          ],
+          [
+            19.89601,
+            27.57
+          ],
+          [
+            20.49601,
+            27.57
+          ],
+          [
+            20.49601,
+            27.81
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "12",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            19.89601,
+            27.31
+          ],
+          [
+            19.89601,
+            27.07
+          ],
+          [
+            20.49601,
+            27.07
+          ],
+          [
+            20.49601,
+            27.31
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "13",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            19.426011,
+            26.24
+          ],
+          [
+            19.666011,
+            26.24
+          ],
+          [
+            19.666011,
+            26.84
+          ],
+          [
+            19.426011,
+            26.84
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "14",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            18.92601,
+            26.24
+          ],
+          [
+            19.16601,
+            26.24
+          ],
+          [
+            19.16601,
+            26.84
+          ],
+          [
+            18.92601,
+            26.84
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "15",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            18.426011,
+            26.24
+          ],
+          [
+            18.666011,
+            26.24
+          ],
+          [
+            18.666011,
+            26.84
+          ],
+          [
+            18.426011,
+            26.84
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "16",
+        "shape": "rectangle",
+        "size_mm": [
+          0.24,
+          0.6
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            17.926009,
+            26.24
+          ],
+          [
+            18.166009,
+            26.24
+          ],
+          [
+            18.166009,
+            26.84
+          ],
+          [
+            17.926009,
+            26.84
+          ]
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "17",
+        "shape": "rectangle",
+        "size_mm": [
+          1.45,
+          1.45
+        ],
+        "inactive_roundrect_ratio": 0.25,
+        "radius_mm": 0,
+        "copper_outline_mm": [
+          [
+            18.07101,
+            27.215
+          ],
+          [
+            19.52101,
+            27.215
+          ],
+          [
+            19.52101,
+            28.665
+          ],
+          [
+            18.07101,
+            28.665
+          ]
+        ]
+      }
+    ],
+    "rounded_rectangle_pads": []
+  },
+  "sha256": {
+    "QSTL_THS3491_RGT_G20_RevD.PcbDoc": "608fd5d5022241e2385af0b9c3386a6ca39fe3a9306f923a094030519085c87a",
+    "QSTL_THS3491_RGT_G20_RevD.PrjPcb": "ea20437f00952a272c444d8ca6388a3f91a10b7221f434023c786a96275641d3",
+    "QSTL_THS3491_RGT_G20_RevD.PrjPcbStructure": "d884bf296b5ec198ee8761cfb0dd0973013856d130b0f0f6256db460756b2be9"
+  },
+  "schematic_sha256": "e2787d4f87d645b4b38d508ed0b2876a8e66e05ea2fa17caf7ad32086809f45d",
+  "Altium_application_open_save": true,
+  "Altium_application_reopen": true,
+  "Altium_application_ERC_DRC": false,
+  "SI_PI_EMC_thermal_validated": false,
+  "baseline_validation": "C:\\Jeonghyun\\SNU_GIT\\QSTL_Amplifier\\hardware\\THS3491_RGT_G20\\altium_revD\\review\\mount_mask_baseline\\review_before\\validation_summary.json",
+  "baseline_validation_sha256": "8a30b118abb483214f1a3327d8d9f7afec9152de48f593760dc27bd52894a563",
+  "baseline_check_count": 72,
+  "validation_method": "Current native import and DRC; exact comparison to prior verified PCB. Only manual solder-mask expansion on H1-H4 changes; all copper, pads, drills, vias and free mask regions remain unchanged. Independent importer confirms both mask layers and 6 mm diameter.",
+  "warning": "Inherited 0.0089 mm RG_DRIVE auxiliary arc endpoint; retained from TI reference",
+  "latest_audit": "mount_mask_check.json"
+}

@@ -1,0 +1,69 @@
+{
+  "request": "Expose copper around the mechanical mounting holes.",
+  "baseline_pcb_sha256": "fc90baaf6cb2016140540eb4eefc05d0a1c9063d53e850eac25f242892498f74",
+  "baseline_schematic_sha256": "e2787d4f87d645b4b38d508ed0b2876a8e66e05ea2fa17caf7ad32086809f45d",
+  "holes": [
+    {
+      "ref": "H3",
+      "center_mm": [
+        5.08001,
+        5.08
+      ],
+      "drill_diameter_mm": 3.175,
+      "opening_diameter_mm": 6.0,
+      "mask_expansion_mm": 1.4125,
+      "layers": [
+        "F.Mask",
+        "B.Mask"
+      ],
+      "plated": false
+    },
+    {
+      "ref": "H4",
+      "center_mm": [
+        36.57601,
+        5.08
+      ],
+      "drill_diameter_mm": 3.175,
+      "opening_diameter_mm": 6.0,
+      "mask_expansion_mm": 1.4125,
+      "layers": [
+        "F.Mask",
+        "B.Mask"
+      ],
+      "plated": false
+    },
+    {
+      "ref": "H2",
+      "center_mm": [
+        36.57601,
+        63.5
+      ],
+      "drill_diameter_mm": 3.175,
+      "opening_diameter_mm": 6.0,
+      "mask_expansion_mm": 1.4125,
+      "layers": [
+        "F.Mask",
+        "B.Mask"
+      ],
+      "plated": false
+    },
+    {
+      "ref": "H1",
+      "center_mm": [
+        5.08001,
+        63.5
+      ],
+      "drill_diameter_mm": 3.175,
+      "opening_diameter_mm": 6.0,
+      "mask_expansion_mm": 1.4125,
+      "layers": [
+        "F.Mask",
+        "B.Mask"
+      ],
+      "plated": false
+    }
+  ],
+  "opening_basis": "6.0 mm nominal screw-head review envelope used by the existing mounting-via design",
+  "method": "Manual pad solder-mask expansion on both outer sides; existing GND copper is exposed. Hole drilling/plating, all copper and all vias are unchanged."
+}
