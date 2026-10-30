@@ -1,0 +1,9 @@
+{
+  "pcb_sha256": "f3e6b5e58413bd2cf4cf3f1f70ad87fc169d3054290dca54a70779b077d29edd",
+  "baseline": "C:\\Jeonghyun\\SNU_GIT\\QSTL_Amplifier\\hardware\\THS3491_RGT_G20\\altium_revD\\review\\l3_cleanup_baseline\\review_before",
+  "native_screenshot": false,
+  "figures": [
+    "L2_pad_only_before_after.png",
+    "L3_clean_power_before_after.png"
+  ]
+}

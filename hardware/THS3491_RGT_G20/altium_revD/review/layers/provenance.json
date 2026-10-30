@@ -1,0 +1,13 @@
+{
+  "source": "QSTL_THS3491_RGT_G20_RevD.PcbDoc",
+  "pcb_sha256": "fc90baaf6cb2016140540eb4eefc05d0a1c9063d53e850eac25f242892498f74",
+  "views": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "orientation": "all layers viewed from top; L4 not mirrored",
+  "content": "saved copper, pads and holes; no solder mask or silkscreen",
+  "native_screenshot": false
+}

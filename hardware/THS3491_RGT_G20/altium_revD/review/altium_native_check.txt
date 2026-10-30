@@ -95,7 +95,7 @@ BottomPads=7
 MultiPads=12
 OtherPads=0
 Tracks=54
-Vias=965
+Vias=839
 BODY,J10,side=0,layer=69
 BODY,J9,side=0,layer=69
 BODY,L2,side=0,layer=69

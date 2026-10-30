@@ -18,6 +18,16 @@ from check_layer_encoding import check as check_layer_encoding
 ROOT=Path(__file__).resolve().parents[1]
 R=ROOT/'review'; C=ROOT.parent/'altium_revC'
 
+if (ROOT/'rf_resistor_windows_intent.json').exists():
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/audit_rf_resistor_windows.py'),'--package'],check=True)
+    raise SystemExit(0)
+
+if (ROOT/'l3_cleanup_intent.json').exists():
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/audit_l3_cleanup.py'),'--package'],check=True)
+    raise SystemExit(0)
+
 # TP1 removal has a stricter comparison against the complete verified 965-via
 # board. Historical feature reports describe their original file hashes;
 # do not relabel those reports as fresh checks of this later revision.

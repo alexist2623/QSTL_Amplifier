@@ -1,0 +1,202 @@
+{
+  "request": "No L2 window under the amplifier pads. RF resistor pad-to-pad gaps must be open; inter-component traces retain L2 GND.",
+  "baseline_pcb_sha256": "f3e6b5e58413bd2cf4cf3f1f70ad87fc169d3054290dca54a70779b077d29edd",
+  "baseline_schematic_sha256": "e2787d4f87d645b4b38d508ed0b2876a8e66e05ea2fa17caf7ad32086809f45d",
+  "removed_U1_pad_windows": 5,
+  "replaced_resistor_pad_windows": 13,
+  "new_resistor_windows": [
+    {
+      "ref": "R1",
+      "outline": [
+        [
+          8.41361,
+          20.303
+        ],
+        [
+          8.41361,
+          21.353
+        ],
+        [
+          6.01361,
+          21.353
+        ],
+        [
+          6.01361,
+          20.303
+        ]
+      ],
+      "grounded_pads": []
+    },
+    {
+      "ref": "R14",
+      "outline": [
+        [
+          23.525,
+          27.365
+        ],
+        [
+          23.525,
+          28.515
+        ],
+        [
+          20.875,
+          28.515
+        ],
+        [
+          20.875,
+          27.365
+        ]
+      ],
+      "grounded_pads": []
+    },
+    {
+      "ref": "R2",
+      "outline": [
+        [
+          15.29056,
+          24.7226
+        ],
+        [
+          15.29056,
+          25.7726
+        ],
+        [
+          13.79056,
+          25.7726
+        ],
+        [
+          13.79056,
+          24.7226
+        ]
+      ],
+      "grounded_pads": [
+        "1"
+      ]
+    },
+    {
+      "ref": "R3",
+      "outline": [
+        [
+          15.31556,
+          25.94651
+        ],
+        [
+          15.31556,
+          28.3465
+        ],
+        [
+          14.26556,
+          28.3465
+        ],
+        [
+          14.26556,
+          25.94651
+        ]
+      ],
+      "grounded_pads": []
+    },
+    {
+      "ref": "R4",
+      "outline": [
+        [
+          16.68716,
+          25.94651
+        ],
+        [
+          16.68716,
+          28.34651
+        ],
+        [
+          15.63716,
+          28.34651
+        ],
+        [
+          15.63716,
+          25.94651
+        ]
+      ],
+      "grounded_pads": []
+    },
+    {
+      "ref": "R5",
+      "outline": [
+        [
+          7.05281,
+          35.068
+        ],
+        [
+          7.05281,
+          36.568
+        ],
+        [
+          6.00281,
+          36.568
+        ],
+        [
+          6.00281,
+          35.068
+        ]
+      ],
+      "grounded_pads": [
+        "1"
+      ]
+    },
+    {
+      "ref": "R6",
+      "outline": [
+        [
+          15.31556,
+          28.5335
+        ],
+        [
+          15.31556,
+          30.9335
+        ],
+        [
+          14.26556,
+          30.9335
+        ],
+        [
+          14.26556,
+          28.5335
+        ]
+      ],
+      "grounded_pads": []
+    },
+    {
+      "ref": "R7",
+      "outline": [
+        [
+          16.68716,
+          28.5335
+        ],
+        [
+          16.68716,
+          30.0335
+        ],
+        [
+          15.63716,
+          30.0335
+        ],
+        [
+          15.63716,
+          28.5335
+        ]
+      ],
+      "grounded_pads": [
+        "1"
+      ]
+    }
+  ],
+  "pad_margin_mm": 0.1,
+  "ground_pad_policy": "Open the entire gap up to the inner edge of the grounded pad; retain copper beneath the GND pad and its via.",
+  "preserved": [
+    "all L1/L3/L4 copper",
+    "parts/pads/tracks/arcs/vias",
+    "all L3 supply shapes",
+    "three L1 clearances",
+    "bottom mask",
+    "schematic",
+    "26 embedded models"
+  ]
+}

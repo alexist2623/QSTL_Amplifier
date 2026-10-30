@@ -195,3 +195,19 @@ Reference identifiers used in this work: TI THS3491 RGT EVM guide SLOU483, TI HS
 - Restore GND copper on all four layers and remove only its obsolete bottom-mask protection island. Restrict copper/mask changes to radius 1.10 mm around the former TP1 center.
 - Preserve every other component, pad, track, arc, outline, copper boundary/cutout, schematic object and all 965 vias and 26 embedded models. Current counts: 31 PCB components, 83 pads.
 - Verify native PCB/schematic save and reopen, complete native import and DRC, and exact comparison to the immediately preceding 168-check baseline. Record the new 49-check proof separately; do not relabel historical feature audits as rerun against the new file.
+
+## 22. Clean L3 supply planes and restrict L2 openings to pads (2026-10-30)
+
+- Supersedes the previous instruction to retain the three inherited L2 local windows. Remove L2 `INPLUS_LOCAL_WINDOW`, `OUT_LOCAL_WINDOW` and `FB_INV_LOCAL_WINDOW`; keep the 18 RF pad-specific windows, each pad outline plus its existing 0.10 mm margin. Preserve the three L1 clearances. No RF cutouts belong on L3 or L4.
+- Restore L2 GND beneath every RF trace and arc outside the pad windows. The current correction restores 4.6064 mm2. Verify the complete trace copper projection, not merely selected centerline points.
+- Replace the irregular L3 VCC/VEE shapes with clean continuous planes following the user's annotations. Replace the thin C7 branches with plane connections of minimum 0.90 mm (VCC) and 1.00 mm (VEE) width. Preserve all 24 VCC and 23 VEE vias.
+- Keep L3 power outside the vertical projection of L2 RF pad windows; current minimum saved-copper gap is 0.2970 mm. Where the outer VCC branch crosses L1 output, continuous L2 GND must remain between them.
+- Delete the 126 listed GND stitching vias whose copper/clearance overlaps the new power outlines. Total vias become 839. This supersedes blanket preservation of earlier RF-fence vias where they conflict with the newly requested power planes. Preserve U1 EP thermal vias, GND via-in-pad, mounting rings and board-edge vias.
+- Preserve all parts, pads, L1 routing and arcs, L1/L4 copper, bottom-mask exposure, schematic bytes and 26 models. Audit the saved native file against `review/l3_cleanup_baseline`, with only the listed L2/L3 changes permitted. Current native save/reopen plus 102 checks pass; independent DRC has zero errors and unconnected pads, with the inherited RG_DRIVE arc warning unchanged.
+
+## 23. Exclude amplifier pads; join RF resistor pad windows (2026-10-30 follow-up)
+
+- Supersedes section 22's L2 pad-only openings: remove the five U1 RF-pad windows and restore L2 GND below them. Do not cut out L2 below amplifier pads.
+- For RF resistors R1–R7 and R14, join the openings across the gap between each resistor's two pads. Use eight continuous resistor windows, retaining the existing 0.10 mm margin at signal pads. For R2/R5/R7, stop at the grounded pad's inner edge; preserve the GND pad and its via's L2 connection.
+- Keep GND beneath inter-component RF traces and preserve every GND via land. Preserve all L3 power shapes and L1/L4 copper, all 31 parts, 83 pads, 839 vias, bottom-mask regions, schematic bytes and 26 embedded models.
+- Current persistent cutouts are three on L1 and eight on L2, none on L3/L4. Verify native save/reopen, independent native import and DRC, exact non-L2 geometry/copper preservation, every resistor's entire pad gap and the restored U1 pad areas. The dedicated 72-check audit is `review/rf_resistor_windows_check.json`; the preceding 102-check report is historical baseline evidence.

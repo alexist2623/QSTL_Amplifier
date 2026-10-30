@@ -1,7 +1,7 @@
 {
   "open_save_reopen_passed": true,
-  "pcb_sha256": "d9444025681b95a9d971c1db2267c07355b0a4fd37ab991d7db80124ee0545f3",
-  "log_sha256": "1cfb06bb18ebcea55768202a31f79b0f98653cd1636fea8c85136f8c7c32eb49",
+  "pcb_sha256": "fc90baaf6cb2016140540eb4eefc05d0a1c9063d53e850eac25f242892498f74",
+  "log_sha256": "42ac7c3e3d9e784dca10f3751a414c764e013542f6d1a2ef86adb31e05147fe9",
   "script_sha256": "d50fb28408d816020f3ed214b8165d94f1745b87a10d5b4891d6f24b4fa487b9",
   "application": "Altium Designer Professional 25.8.1",
   "native_pad_counts": {
@@ -13,7 +13,7 @@
   "native_tracks": 54,
   "signal_tracks": 42,
   "mechanical_outline_tracks": 12,
-  "native_vias": 965,
+  "native_vias": 839,
   "new_version_conversion_report": false,
   "layer_encoding": {
     "errors": [],

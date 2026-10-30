@@ -1,8 +1,8 @@
 {
-  "pcb_sha256": "d9444025681b95a9d971c1db2267c07355b0a4fd37ab991d7db80124ee0545f3",
-  "baseline_sha256": "55702a0e654c572d560edc3d926949c0e0578a76b0aae2b6b74c39845c7e9ea4",
+  "pcb_sha256": "fc90baaf6cb2016140540eb4eefc05d0a1c9063d53e850eac25f242892498f74",
+  "baseline_sha256": "f3e6b5e58413bd2cf4cf3f1f70ad87fc169d3054290dca54a70779b077d29edd",
   "native_save_reopen_verified": true,
-  "native_log_sha256": "1cfb06bb18ebcea55768202a31f79b0f98653cd1636fea8c85136f8c7c32eb49",
+  "native_log_sha256": "42ac7c3e3d9e784dca10f3751a414c764e013542f6d1a2ef86adb31e05147fe9",
   "model_count": 26,
   "unique_assets": 11,
   "components": [
@@ -370,21 +370,21 @@
   "embedded_step_bytes_verified": true,
   "native_placement_verified": true,
   "unchanged_streams": [
+    "Tracks6/Data",
     "Arcs6/Data",
-    "Rules6/Data"
+    "Nets6/Data",
+    "Polygons6/Data",
+    "Rules6/Data",
+    "Texts6/Data"
   ],
   "reserialized_or_authorized_changed_streams": [
     "Pads6/Data",
-    "Tracks6/Data",
     "Vias6/Data",
-    "Nets6/Data",
-    "Polygons6/Data",
     "Regions6/Data",
-    "ShapeBasedRegions6/Data",
-    "Texts6/Data"
+    "ShapeBasedRegions6/Data"
   ],
   "independent_electrical_geometry_verified": true,
-  "geometry_audit_sha256": "69868b4de87bd46e46652ff63373b484ac3e4e331d68c2461716ec89c430b0fa",
+  "geometry_audit_sha256": "0c2fce333c389e11d2e18fc822c9dcd7a070e347d5e0ad0af8f11e286fea580d",
   "screenshot_verified": false,
   "figure_source": "Re-rendered embedded STEP geometry and native placement",
   "simplified_models": [

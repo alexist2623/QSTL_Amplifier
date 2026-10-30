@@ -6,3 +6,9 @@
 # Embedded STEP verification compares exact bytes with these source files.
 *.step -text
 *.stp -text
+# These verification artifacts are referenced by exact SHA-256 hashes.
+/hardware/THS3491_RGT_G20/altium_revD/review/altium_native_check.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/hardware/THS3491_RGT_G20/altium_revD/review/native_shape_repair/ShapeRepair.pas -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/hardware/THS3491_RGT_G20/altium_revD/review/native_import_check.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/hardware/THS3491_RGT_G20/altium_revD/review/l3_cleanup_baseline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/hardware/THS3491_RGT_G20/altium_revD/review/rf_resistor_windows_baseline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
